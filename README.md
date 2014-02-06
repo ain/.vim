@@ -6,5 +6,5 @@ _Coming soon_
 
 ## Cheatsheet
 | Vim command | Description     |
----------------------------------
+|-------------|-----------------|
 | gg=G        | Fix indentation |        
