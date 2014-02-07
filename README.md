@@ -10,4 +10,5 @@ _Coming soon_
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
-| gg=G        | Fix indentation |        
+| gg=G        | Fix indentation |
+| dG          | Delete till EOF | 
