@@ -4,6 +4,9 @@ Subject to constant change, the goal of this repository is to store a polyglot c
 ## Plugins
 _Coming soon_
 
+## Installation
+_Coming soon_
+
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
