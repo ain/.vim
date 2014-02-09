@@ -31,3 +31,6 @@ au FileType ruby,eruby setl ofu=rubycomplete#Complete
 au FileType html,xhtml setl ofu=htmlcomplete#CompleteTags
 au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
+
+" remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
