@@ -17,6 +17,7 @@ set ruler           " show the cursor position all the time
 set visualbell t_vb=    " turn off error beep/flash
 set ignorecase        "ignore case while searching
 set number            "put numbers on side
+set backspace=indent,eol,start
 
 execute pathogen#infect()
 syntax on
@@ -32,8 +33,6 @@ au FileType html,xhtml setl ofu=htmlcomplete#CompleteTags
 au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
 
-" remove trailing whitespace
-au BufWritePre * :%s/\s\+$//e
+au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
+au VimEnter *  NERDTree " open NERDTree automatically
 
-" open NERDTree automatically
-au VimEnter *  NERDTree
