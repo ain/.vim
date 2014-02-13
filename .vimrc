@@ -33,4 +33,7 @@ au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
 
 " remove trailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
+au BufWritePre * :%s/\s\+$//e
+
+" open NERDTree automatically
+au VimEnter *  NERDTree
