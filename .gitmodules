@@ -19,3 +19,9 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-multiple-cursosr"]
+	path = bundle/vim-multiple-cursosr
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
