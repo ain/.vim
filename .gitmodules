@@ -25,3 +25,6 @@
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/grunt.vim"]
+	path = bundle/grunt.vim
+	url = git://github.com/mklabs/grunt.vim.git
