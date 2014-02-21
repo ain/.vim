@@ -5,12 +5,14 @@ Subject to constant change, the goal of this repository is to store a polyglot c
 _Coming soon_
 
 ## Installation
-_Coming soon_
+1. Back up `~/.vim`
+2. Get the setup git clone --recursive `https://github.com/ain/.vim.git`
+3. Symlink Vim configuration `ln -s ~/.vim/.vimrc .vimrc`
 
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
-| gg=G        | Fix indentation |
+| gg=G        | Fix indentation |
 | dG          | Delete till EOF |
 
 ## Useful resources
