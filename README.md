@@ -6,8 +6,10 @@ _Coming soon_
 
 ## Installation
 1. Back up `~/.vim`
-2. Get the setup git clone --recursive `https://github.com/ain/.vim.git`
-3. Symlink Vim configuration `ln -s ~/.vim/.vimrc .vimrc`
+2. Remove `rm -rf ~/.vim`
+3. Make sure you're in your home folder `cd ~`
+4. Get the setup `git clone --recursive https://github.com/ain/.vim.git`
+5. Symlink Vim configuration to home folder `ln -s ~/.vim/.vimrc .vimrc`
 
 ## Cheatsheet
 | Vim command | Description     |
