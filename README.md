@@ -14,9 +14,9 @@ _Coming soon_
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
-| `:gg=G`        | Fix indentation |
-| `:dG`          | Delete till EOF |
-| `:%w !pbcopy`  | Copy entire file to pasteboard |
+| gg=G        | Fix indentation |
+| dG          | Delete till EOF |
+| `:%w !pbcopy`  | Copy entire file to pasteboard |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
