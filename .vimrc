@@ -39,3 +39,4 @@ au VimEnter *  NERDTree " open NERDTree automatically
 " aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
+command Gbranch Git branch
