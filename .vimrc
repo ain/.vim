@@ -36,3 +36,6 @@ au FileType css setl ofu=csscomplete#CompleteCSS
 au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
 au VimEnter *  NERDTree " open NERDTree automatically
 
+" aliases
+command Greset Git reset --hard HEAD
+command Gst Gstatus
