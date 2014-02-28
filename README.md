@@ -17,6 +17,9 @@ _Coming soon_
 | gg=G        | Fix indentation |
 | dG          | Delete till EOF |
 | `:%w !pbcopy`  | Copy entire file to pasteboard |
+| `:Gbranch`  | Display current Git branch |
+| `:Gst`    | Display Git status |
+| `:Greset`      | Hard reset back to HEAD |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
