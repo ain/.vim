@@ -14,9 +14,13 @@ _Coming soon_
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
-| gg=G        | Fix indentation |
-| dG          | Delete till EOF |
+| `gg=G`        | Fix indentation |
+| `dG`          | Delete till EOF |
 | `:%w !pbcopy`  | Copy entire file to pasteboard |
+| __Surroundings__ |
+| `ds"`         | Remove double quotes on word under cursor |
+| `ysiw'`       | Add single quotes on word under cursor |
+|__Git__ |
 | `:Gbranch`  | Display current Git branch |
 | `:Gst`    | Display Git status |
 | `:Greset`      | Hard reset back to HEAD |
