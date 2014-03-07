@@ -41,3 +41,4 @@ au VimEnter *  NERDTree " open NERDTree automatically
 command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -va
+command Gurl Git config --get remote.origin.url

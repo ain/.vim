@@ -22,8 +22,9 @@ _Coming soon_
 | `ysiw'`       | Add single quotes on word under cursor |
 |__Git__ |
 | `:Gbranch`  | Display current Git branch |
-| `:Gst`    | Display Git status |
-| `:Greset`      | Hard reset back to HEAD |
+| `:Gst`      | Display Git status |
+| `:Greset`   | Hard reset back to HEAD |
+| ´:Gurl´     | Display remote origin URL |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
