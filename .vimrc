@@ -10,7 +10,7 @@ syntax on
 
 set background=dark  "makes it easier to read with black backgroun:d
 colorscheme railscasts "set theme in ./vim/colors folder
-set ls=2            " allways show status line
+set ls=2            " always show status line
 set hlsearch        " highlight searches
 set incsearch       " do incremental searching
 set ruler           " show the cursor position all the time
@@ -44,3 +44,4 @@ command Gbranch Git branch -va
 command Gurl Git config --get remote.origin.url
 command Gpush Git push origin
 command Gpull Git pull origin
+command Gglog Git log --stat

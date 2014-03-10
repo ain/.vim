@@ -27,6 +27,7 @@ _Coming soon_
 | `:Gurl`     | Display remote origin URL |
 | `:Gpush`    | Push to the origin. Assumes that global config is set to match, e.g.: `git config --global push.default matching` |
 | `:Gpull`    | Pull from the origin. Assumes that global config is set to match, e.g.: `git config --global pull.default matching` |
+| `:Gglog`    | Glogal log with stat |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
