@@ -42,3 +42,4 @@ command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -va
 command Gurl Git config --get remote.origin.url
+command Gpush Git push current
