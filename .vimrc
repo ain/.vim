@@ -19,6 +19,7 @@ set ignorecase        "ignore case while searching
 set number            "put numbers on side
 set backspace=indent,eol,start
 set hidden
+set shell=/bin/bash\ -i
 
 execute pathogen#infect()
 syntax on
@@ -46,3 +47,7 @@ command Gurl Git config --get remote.origin.url
 command Gpush Git push origin
 command Gpull Git pull origin
 command Gglog Git log --stat
+
+" helper aliases
+command W w
+command Q q
