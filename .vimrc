@@ -26,6 +26,7 @@ filetype plugin indent on
 
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize = 40
+let NERDTreeShowHidden = 1
 
 filetype plugin on
 au FileType php setl ofu=phpcomplete#CompletePHP
