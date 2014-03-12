@@ -19,6 +19,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:%w !pbcopy`  | Copy entire file to pasteboard |
 | __Surroundings__ |
 | `ds"`         | Remove double quotes on word under cursor |
+| `cs"'`        | Replace double quotes with single quotes on word under cursor |
 | `ysiw'`       | Add single quotes on word under cursor |
 |__Git__ |
 | `:Gbranch`  | Display current Git branch |
