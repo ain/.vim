@@ -56,3 +56,6 @@ command Q q
 " " insert mode
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
+" ctrlp plugin for quick buffer navigation
+let g:ctrlp_map = '<c-p>'
