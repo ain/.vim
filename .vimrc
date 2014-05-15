@@ -2,6 +2,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set encoding=utf-8
 
 filetype on
 filetype plugin on
