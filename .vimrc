@@ -38,6 +38,12 @@ au FileType css setl ofu=csscomplete#CompleteCSS
 au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
 au VimEnter *  NERDTree " open NERDTree automatically
 
+" Associate uncommon filetypes
+au BufRead,BufNewFile *.cap setfiletype ruby
+au BufRead,BufNewFile *.rake setfiletype ruby
+au BufRead,BufNewFile *.module setfiletype php
+au BufRead,BufNewFile *.install setfiletype php
+
 " aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
