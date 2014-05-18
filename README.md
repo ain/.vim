@@ -26,8 +26,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gst`      | Display Git status |
 | `:Greset`   | Hard reset back to HEAD |
 | `:Gurl`     | Display remote origin URL |
-| `:Gpush`    | Push to the origin. Assumes that global config is set to match, e.g.: `git config --global push.default matching` |
-| `:Gpull`    | Pull from the origin. Assumes that global config is set to match, e.g.: `git config --global pull.default matching` |
+| `:Gpush`    | Push HEAD to origin |
+| `:Gpull`    | Pull HEAD from origin |
 | `:Gglog`    | Glogal log with stat |
 
 ## Useful resources

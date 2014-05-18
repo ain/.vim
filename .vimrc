@@ -49,13 +49,14 @@ command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -va
 command Gurl Git config --get remote.origin.url
-command Gpush Git push origin
-command Gpull Git pull origin
+command Gpush Git push origin HEAD
+command Gpull Git pull origin HEAD
 command Gglog Git log --stat
 
 " helper aliases
 command W w
 command Q q
+command A a
 
 " If you prefer the Omni-Completion tip window to close when a selection is
 " " made, these lines close it on movement in insert mode or when leaving
