@@ -28,7 +28,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gurl`     | Display remote origin URL |
 | `:Gpush`    | Push HEAD to origin |
 | `:Gpull`    | Pull HEAD from origin |
-| `:Gglog`    | Glogal log with stat |
+| `:Gglog`    | Global log with stat |
+| `:Gclean`   | Remove newly created files |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
