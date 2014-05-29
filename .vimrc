@@ -52,6 +52,7 @@ command Gurl Git config --get remote.origin.url
 command Gpush Git push origin HEAD
 command Gpull Git pull origin HEAD
 command Gglog Git log --stat
+command Gclean Git clean -f -d
 
 " helper aliases
 command W w
