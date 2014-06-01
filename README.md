@@ -11,12 +11,15 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 4. Get the setup `git clone --recursive https://github.com/ain/.vim.git`
 5. Symlink Vim configuration to home folder `ln -s ~/.vim/.vimrc .vimrc`
 
+## Updates
+1. Run `git submodule foreach git pull origin master`
+
 ## Cheatsheet
 | Vim command | Description     |
 |-------------|-----------------|
 | `gg=G`        | Fix indentation |
 | `dG`          | Delete till EOF |
-| `:%w !pbcopy`  | Copy entire file to pasteboard |
+| `:w !pbcopy`  | Copy entire buffer to pasteboard |
 | __Surroundings__ |
 | `ds"`         | Remove double quotes on word under cursor |
 | `cs"'`        | Replace double quotes with single quotes on word under cursor |
