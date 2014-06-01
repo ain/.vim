@@ -3,6 +3,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set encoding=utf-8
+set textwidth=0
+set wrapmargin=0
 
 filetype on
 filetype plugin on
