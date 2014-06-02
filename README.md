@@ -33,6 +33,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gpull`    | Pull HEAD from origin |
 | `:Gglog`    | Global log with stat |
 | `:Gclean`   | Remove newly created files |
+| `:Gstash`   | Stash |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 

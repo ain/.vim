@@ -55,6 +55,7 @@ command Gpush Git push origin HEAD
 command Gpull Git pull origin HEAD
 command Gglog Git log --stat
 command Gclean Git clean -f -d
+command Gstash Git stash
 
 " helper aliases
 command W w
