@@ -5,6 +5,8 @@ set expandtab
 set encoding=utf-8
 set textwidth=0
 set wrapmargin=0
+set tw=0
+set syn=sh
 
 filetype on
 filetype plugin on
