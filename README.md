@@ -12,7 +12,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 5. Symlink Vim configuration to home folder `ln -s ~/.vim/.vimrc .vimrc`
 
 ## Updates
-1. Run `git submodule foreach git pull origin master`
+1. Run `./update`
 
 ## Cheatsheet
 | Vim command | Description     |
