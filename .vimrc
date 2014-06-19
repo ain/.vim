@@ -7,6 +7,7 @@ set textwidth=0
 set wrapmargin=0
 set tw=0
 set syn=sh
+set nobomb
 
 filetype on
 filetype plugin on
@@ -72,3 +73,6 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " ctrlp plugin for quick buffer navigation
 let g:ctrlp_map = '<c-p>'
+
+" mustache
+let g:mustache_abbreviations = 1
