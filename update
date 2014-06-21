@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Updating Vim environment..."
-git pull origin master
-git submodule foreach git pull origin master
+git pull --recurse-submodules origin master
+git submodule update --recursive
 echo "Update completed!"
