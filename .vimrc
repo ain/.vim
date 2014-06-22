@@ -8,6 +8,7 @@ set wrapmargin=0
 set tw=0
 set syn=sh
 set nobomb
+set noendofline binary
 
 filetype on
 filetype plugin on
