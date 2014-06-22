@@ -1,14 +1,14 @@
+set noendofline binary
 set smartindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
 set encoding=utf-8
 set textwidth=0
 set wrapmargin=0
 set tw=0
 set syn=sh
 set nobomb
-set noendofline binary
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 filetype on
 filetype plugin on
@@ -65,6 +65,8 @@ command Gstash Git stash
 command W w
 command Q q
 command A a
+command Qa qa
+command QA qa
 
 " If you prefer the Omni-Completion tip window to close when a selection is
 " " made, these lines close it on movement in insert mode or when leaving
