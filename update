@@ -2,4 +2,6 @@
 echo "Updating Vim environment..."
 git pull --recurse-submodules origin master
 git submodule update --recursive
-echo "Update completed!"
+echo "Updates fetched, checking status..."
+git status
+echo "Update completed! Please commit possible changes."
