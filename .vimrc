@@ -1,4 +1,3 @@
-set noendofline binary
 set smartindent
 set encoding=utf-8
 set textwidth=0
@@ -49,6 +48,10 @@ au VimEnter *  NERDTree " open NERDTree automatically
 au BufRead,BufNewFile *.rake setfiletype ruby
 au BufRead,BufNewFile *.module setfiletype php
 au BufRead,BufNewFile *.install setfiletype php
+
+" Take care of eol
+au BufWritePre * :set binary | set noeol
+au BufWritePost * :set nobinary | set eol
 
 " aliases
 command Greset Git reset --hard HEAD
