@@ -27,13 +27,17 @@ set number            "put numbers on side
 set backspace=indent,eol,start
 set hidden
 
+" Map <Leader> to ,
+let mapleader=","
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
 map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreeWinSize = 40
-let NERDTreeShowHidden = 1
+let g:NERDTreeWinSize=40
+let NERDTreeShowHidden=1
+
 
 filetype plugin on
 au FileType php setl ofu=phpcomplete#CompletePHP
