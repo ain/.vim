@@ -9,6 +9,7 @@ set nobomb
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set formatoptions=cq
 
 filetype on
 filetype plugin on
