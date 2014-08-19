@@ -70,6 +70,7 @@ command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
 command Gstash Git stash
+command Gfetch Git fetch
 
 " helper aliases
 command W w
