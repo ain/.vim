@@ -59,7 +59,7 @@ au BufRead,BufNewFile *.install setfiletype php
 au BufWritePre * :set binary | set noeol
 au BufWritePost * :set nobinary | set eol
 
-" aliases
+" Git-related aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -va
@@ -72,7 +72,11 @@ command Gclean Git clean -f -d
 command Gstash Git stash
 command Gfetch Git fetch
 
-" helper aliases
+" Rails-related aliases
+command Cstage ! cap staging deploy
+command Clive ! cap production deploy
+
+" Helper aliases
 command W w
 command Q q
 command A a
