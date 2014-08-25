@@ -62,7 +62,7 @@ au BufWritePost * :set nobinary | set eol
 " Git-related aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
-command Gbranch Git branch -va
+command Gbranch Git branch -vva
 command Gurl Git config --get remote.origin.url
 command Gpush Git push origin HEAD
 command Gpull Git pull origin HEAD
