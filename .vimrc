@@ -65,7 +65,7 @@ command Gst Gstatus
 command Gbranch Git branch -vva
 command Gurl Git config --get remote.origin.url
 command Gpush Git push origin HEAD
-command Gpull Git pull origin HEAD
+command Gpull Git pull --rebase origin HEAD
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
