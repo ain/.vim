@@ -10,12 +10,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set formatoptions=cq
-
-filetype on
-filetype plugin on
-filetype indent on
-syntax on
-
 set background=dark  "makes it easier to read with black backgroun:d
 colorscheme railscasts "set theme in ./vim/colors folder
 set ls=2            " always show status line
@@ -27,9 +21,7 @@ set ignorecase        "ignore case while searching
 set number            "put numbers on side
 set backspace=indent,eol,start
 set hidden
-
-" Map <Leader> to ,
-let mapleader=","
+set backupdir=$TEMP,$TMP,.
 
 execute pathogen#infect()
 syntax on
@@ -39,8 +31,8 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=40
 let NERDTreeShowHidden=1
 
+let mapleader="," " Map <Leader> to ,
 
-filetype plugin on
 au FileType php setl ofu=phpcomplete#CompletePHP
 au FileType ruby,eruby setl ofu=rubycomplete#Complete
 au FileType html,xhtml setl ofu=htmlcomplete#CompleteTags
