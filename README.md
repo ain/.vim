@@ -24,16 +24,24 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `ds"`         | Remove double quotes on word under cursor |
 | `cs"'`        | Replace double quotes with single quotes on word under cursor |
 | `ysiw'`       | Add single quotes on word under cursor |
-|__Git__ |
-| `:Gbranch`  | Display current Git branch |
+| __NERDCommenter__ |
+| `,cn` | Comment line or block |
+| `,ci` | Uncomment line or block |
+| __Git__ |
+| `:Gbranch`  | Display Git branches with their tracked remotes, incl. current Git branch |
 | `:Gst`      | Display Git status |
 | `:Greset`   | Hard reset back to HEAD |
 | `:Gurl`     | Display remote origin URL |
 | `:Gpush`    | Push HEAD to origin |
-| `:Gpull`    | Pull HEAD from origin |
+| `:Gpull`    | Pull HEAD from origin with rebase |
 | `:Gglog`    | Global log with stat |
+| `:Gdlog`    | Global decorated log with stat highlighting branches |
 | `:Gclean`   | Remove newly created files |
 | `:Gstash`   | Stash |
+| `:Gfetch`   | Fetch |
+| __Rails__ |
+| `:Cstage` | Capistrano staging deploy |
+| `:Clive`  | Capistrano production deploy |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
