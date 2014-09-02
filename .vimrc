@@ -68,6 +68,12 @@ command Gfetch Git fetch
 command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 
+" Bower
+function! s:Bower(args)
+  :execute "! bower " . a:args
+endfunction
+command! -nargs=1 Bower call s:Bower(<f-args>)
+
 " Helper aliases
 command W w
 command Q q

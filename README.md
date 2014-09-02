@@ -42,6 +42,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Rails__ |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
+| __Bower__ |
+| `:Bower <command>` | Shorthand for Bower, e.g. `:Bower install` |
 
 ## Useful resources
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
