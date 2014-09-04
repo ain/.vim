@@ -56,6 +56,12 @@ command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -vva
 command Gurl Git config --get remote.origin.url
+"function! s:GPush(args)
+  ":let name = redir("git rev-parse --symbolic-full-name --abbrev-ref calculator-core-133@{u} | cut -d'/' -f 1")
+  ":echo name
+  ":execute "Git push " . name .
+"endfunction
+"command! -nargs=1 Gpush call s:GPush(<f-args>)
 command Gpush Git push origin HEAD
 command Gpull Git pull --rebase origin HEAD
 command Gdlog Git log --graph --stat --all --decorate
@@ -63,6 +69,10 @@ command Gglog Git log --stat
 command Gclean Git clean -f -d
 command Gstash Git stash
 command Gfetch Git fetch
+function! s:GTrack(args)
+  :execute "Git branch -u " . a:args
+endfunction
+command! -nargs=1 Gtrack call s:GTrack(<f-args>)
 
 " Rails-related aliases
 command Cstage ! cap staging deploy

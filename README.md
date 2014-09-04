@@ -39,6 +39,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gclean`   | Remove newly created files |
 | `:Gstash`   | Stash |
 | `:Gfetch`   | Fetch |
+| `:Gtrack <remote_name> <branch>`   | Set upstream |
 | __Rails__ |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
