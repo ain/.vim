@@ -69,6 +69,7 @@ command Gglog Git log --stat
 command Gclean Git clean -f -d
 command Gstash Git stash
 command Gfetch Git fetch
+command Gamend Git commit --amend --no-edit
 function! s:GTrack(args)
   :execute "Git branch -u " . a:args
 endfunction

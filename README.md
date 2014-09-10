@@ -40,6 +40,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gstash`   | Stash |
 | `:Gfetch`   | Fetch |
 | `:Gtrack <remote_name> <branch>`   | Set upstream |
+| `:Gamend`   | Amend to last commit without edit (`git --amend --no-edit`) |
 | __Rails__ |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
