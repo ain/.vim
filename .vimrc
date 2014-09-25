@@ -74,6 +74,7 @@ function! s:GTrack(args)
   :execute "Git branch -u " . a:args
 endfunction
 command! -nargs=1 Gtrack call s:GTrack(<f-args>)
+command Gtags Git tag -l -n1
 
 " Rails-related aliases
 command Cstage ! cap staging deploy
