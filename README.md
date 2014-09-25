@@ -41,6 +41,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gfetch`   | Fetch |
 | `:Gtrack <remote_name> <branch>`   | Set upstream |
 | `:Gamend`   | Amend to last commit without edit (`git --amend --no-edit`) |
+| `:Gtags`    | List all tags with description (`git tag -l -n1`) |
 | __Rails__ |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
