@@ -86,6 +86,9 @@ function! s:Bower(args)
 endfunction
 command! -nargs=1 Bower call s:Bower(<f-args>)
 
+" TODO implement Nuke command for killing node_modules and bower_components at
+" once. Read location from .bowerrc if applicable
+
 " Utilities
 command Tstamp r! date +\%s
 
