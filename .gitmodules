@@ -40,3 +40,6 @@
 [submodule "bundle/vim-haml"]
 	path = bundle/vim-haml
 	url = git@github.com:tpope/vim-haml.git
+[submodule "bundle/unicode.vim"]
+	path = bundle/unicode.vim
+	url = https://github.com/chrisbra/unicode.vim.git
