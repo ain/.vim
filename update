@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Updating Vim environment..."
-git pull --recurse-submodules origin master
+git pull --rebase --recurse-submodules origin master
 git submodule update --recursive
 
 echo "Validating update..."
