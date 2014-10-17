@@ -81,6 +81,9 @@ command Gcotag Git name-rev --tags --name-only $(git rev-parse HEAD)
 command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 
+" Node and NPM-related aliases
+command Nreset ! rm -rf node_modules; npm i
+
 " Bower
 function! s:Bower(args)
   :execute "! bower " . a:args
