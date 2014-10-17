@@ -53,5 +53,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Utilities__ |
 | `:Tstamp` | Insert UNIX timestamp |
 
+## Tips
+1. How to disable PressAndHold feature on Mac OS X Yosemite to restore key repeat: `defaults write com.apple.Terminal ApplePressAndHoldEnabled -bool false`
+
 ## Useful resources
-- [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html) 
+- [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html)
