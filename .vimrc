@@ -83,6 +83,7 @@ command Clive ! cap production deploy
 
 " Node and NPM-related aliases
 command Nreset ! rm -rf node_modules; npm i
+command Ntest ! npm test
 
 " Bower
 function! s:Bower(args)

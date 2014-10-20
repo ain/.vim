@@ -48,6 +48,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Clive`  | Capistrano production deploy |
 | __Node.js__ |
 | `:Nreset` | Node module dependency reset (`rm -rf node_modules; npm i`) |
+| `:Ntest`  | Run Node tests |
 | __Bower__ |
 | `:Bower <command>` | Shorthand for Bower, e.g. `:Bower install` |
 | __Utilities__ |
