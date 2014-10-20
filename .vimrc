@@ -76,6 +76,7 @@ endfunction
 command! -nargs=1 Gtrack call s:GTrack(<f-args>)
 command Gtags Git tag -l -n1
 command Gcotag Git name-rev --tags --name-only $(git rev-parse HEAD)
+command Ghead Git checkout head -- %
 
 " Rails-related aliases
 command Cstage ! cap staging deploy
