@@ -52,6 +52,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Bower__ |
 | `:Bower <command>` | Shorthand for Bower, e.g. `:Bower install` |
 | __Utilities__ |
+| `:Md5` | MD5 checksum of file in active buffer |
 | `:Tstamp` | Insert UNIX timestamp |
 
 ## Tips

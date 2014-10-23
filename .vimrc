@@ -97,6 +97,7 @@ command! -nargs=1 Bower call s:Bower(<f-args>)
 
 " Utilities
 command Tstamp r! date +\%s
+command Md5 ! md5 %
 
 " Helper aliases
 command W w
