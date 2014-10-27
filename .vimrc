@@ -106,6 +106,7 @@ command A a
 command Qa qa
 command QA qa
 command Wq wq
+command Buffers buffers
 
 " If you prefer the Omni-Completion tip window to close when a selection is
 " " made, these lines close it on movement in insert mode or when leaving
