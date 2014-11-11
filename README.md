@@ -36,6 +36,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gpull`    | Pull HEAD from origin with rebase |
 | `:Gglog`    | Global log with stat |
 | `:Gdlog`    | Global decorated log with stat highlighting branches |
+| `:Gflog`    | Detailed log of file in buffer |
 | `:Gclean`   | Remove newly created files |
 | `:Gstash`   | Stash |
 | `:Gfetch`   | Fetch |
