@@ -52,6 +52,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Ntest`  | Run Node tests |
 | __Bower__ |
 | `:Bower <command>` | Shorthand for Bower, e.g. `:Bower install` |
+| `:Breset` | Bower dependency reset (`rm -rf bower_components; bower i`) |
 | __Utilities__ |
 | `:Md5` | MD5 checksum of file in active buffer |
 | `:Tstamp` | Insert UNIX timestamp |

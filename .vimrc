@@ -92,6 +92,7 @@ function! s:Bower(args)
   :execute "! bower " . a:args
 endfunction
 command! -nargs=1 Bower call s:Bower(<f-args>)
+command Breset ! rm -rf bower_components; bower install
 
 " TODO implement Nuke command for killing node_modules and bower_components at
 " once. Read location from .bowerrc if applicable
