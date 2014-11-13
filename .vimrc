@@ -51,7 +51,7 @@ au BufRead,BufNewFile *.install setfiletype php
 au BufWritePre * :set binary | set noeol
 au BufWritePost * :set nobinary | set eol
 
-" Git-related aliases
+" Git-related aliasesG
 command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch -vva
@@ -92,10 +92,12 @@ function! s:Bower(args)
   :execute "! bower " . a:args
 endfunction
 command! -nargs=1 Bower call s:Bower(<f-args>)
-command Breset ! rm -rf bower_components; bower install
-
-" TODO implement Nuke command for killing node_modules and bower_components at
-" once. Read location from .bowerrc if applicable
+function! s:BReset()
+  " TODO consider .bowerrc to fetch correct path
+  :let path = !glob(".bowerrc") ? 'bower_components' : 'bower_components'
+  :execute "! rm -rvf " . path . "; bower --verbose cache clean; bower --verbose install;"
+endfunction
+command! -nargs=0 Breset call s:BReset()
 
 " Utilities
 command Tstamp r! date +\%s
