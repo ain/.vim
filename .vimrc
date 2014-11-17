@@ -80,10 +80,6 @@ command Ghead Git checkout head -- %
 command Gflog Git log -p %
 
 " Rails-related aliases
-function! s:Rake(args)
-  :execute "! rake " . a:args
-endfunction
-command! -nargs=1 Rake call s:Rake(<f-args>)
 command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 
