@@ -47,6 +47,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Rails__ |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
+| `:Rake <task>`  | Rake support by [vim-rake](https://github.com/tpope/vim-rake) |
 | __Node.js__ |
 | `:Nreset` | Node module dependency reset (`rm -rf node_modules; npm i`) |
 | `:Ntest`  | Run Node tests |
