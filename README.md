@@ -26,7 +26,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `ysiw'`       | Add single quotes on word under cursor |
 | __NERDCommenter__ |
 | `,cn` | Comment line or block |
-| `,ci` | Uncomment line or block |
+| `,ci` | Toggle comment on line or block |
 | __Git__ |
 | `:Gbranch`  | Display Git branches with their tracked remotes, incl. current Git branch |
 | `:Gst`      | Display Git status |
