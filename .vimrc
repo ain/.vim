@@ -80,6 +80,10 @@ command Ghead Git checkout head -- %
 command Gflog Git log -p %
 
 " Rails-related aliases
+function! s:Cap(args)
+  :execute "! cap " . a:args
+endfunction
+command! -nargs=1 Cap call s:Cap(<f-args>)
 command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 

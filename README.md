@@ -45,6 +45,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gtags`    | List all tags with description (`git tag -l -n1`) |
 | `:Gcotag`   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | __Rails__ |
+| `:Cap`    | Capistrano |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
 | `:Rake <task>`  | Rake support by [vim-rake](https://github.com/tpope/vim-rake) |
