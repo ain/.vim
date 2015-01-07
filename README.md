@@ -38,6 +38,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gdlog`    | Global decorated log with stat highlighting branches |
 | `:Gflog`    | Detailed log of file in buffer |
 | `:Gclean`   | Remove newly created files |
+| `:Gc`       | Alias of `:Gclean` |
 | `:Gstash`   | Stash |
 | `:Gfetch`   | Fetch |
 | `:Gtrack <remote_name> <branch>`   | Set upstream |

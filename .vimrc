@@ -67,6 +67,7 @@ command Gpull Git pull --rebase origin HEAD
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
+command Gc Gclean
 command Gstash Git stash
 command Gfetch Git fetch
 command Gamend Git commit --amend --no-edit
