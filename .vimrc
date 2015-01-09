@@ -80,6 +80,12 @@ command Gcotag Git name-rev --tags --name-only $(git rev-parse HEAD)
 command Ghead Git checkout head -- %
 command Gflog Git log -p %
 
+" PHP-related aliases
+function! s:Composer(args)
+  :execute "! composer " . a:args
+endfunction
+command! -nargs=1 Composer call s:Composer(<f-args>)
+
 " Rails-related aliases
 function! s:Cap(args)
   :execute "! cap " . a:args
