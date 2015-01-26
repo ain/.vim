@@ -95,6 +95,10 @@ command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 
 " Node and NPM-related aliases
+function! s:Npm(args)
+  :execute "! npm " . a:args
+endfunction
+command! -nargs=1 Npm call s:Npm(<f-args>)
 command Nreset ! rm -rf node_modules; npm i
 command Ntest ! npm test
 
