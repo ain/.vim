@@ -21,7 +21,6 @@ set ignorecase        "ignore case while searching
 set number            "put numbers on side
 set backspace=indent,eol,start
 set hidden
-set backupdir=$TEMP,$TMP,.
 
 execute pathogen#infect()
 syntax on
