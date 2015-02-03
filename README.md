@@ -20,6 +20,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `gg=G`        | Fix indentation |
 | `dG`          | Delete till EOF |
 | `:w !pbcopy`  | Copy entire buffer to pasteboard |
+| `"ay`         | Copy to _a_ register |
+| `"ap`         | Paste from _a_ register |
 | __Surroundings__ |
 | `ds"`         | Remove double quotes on word under cursor |
 | `cs"'`        | Replace double quotes with single quotes on word under cursor |
