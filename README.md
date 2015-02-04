@@ -47,6 +47,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gamend`   | Amend to last commit without edit (`git --amend --no-edit`) |
 | `:Gtags`    | List all tags with description (`git tag -l -n1`) |
 | `:Gcotag`   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
+| `:Gcof <branch>`     | Checkout file in buffer from another branch |
 | __Rails__ |
 | `:Cap`    | Capistrano |
 | `:Cstage` | Capistrano staging deploy |

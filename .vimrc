@@ -79,6 +79,10 @@ command Gtags Git tag -l -n1
 command Gcotag Git name-rev --tags --name-only $(git rev-parse HEAD)
 command Ghead Git checkout head -- %
 command Gflog Git log -p %
+function! s:Gcof(args)
+  :execute "Git checkout " . a:args . " -- %"
+endfunction
+command! -nargs=1 Gcof call s:Gcof(<f-args>)
 
 " PHP-related aliases
 function! s:Composer(args)
