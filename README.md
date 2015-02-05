@@ -35,6 +35,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Greset`   | Hard reset back to HEAD |
 | `:Gurl`     | Display remote origin URL |
 | `:Gpush`    | Push HEAD to origin |
+| `:Gpushf`   | Force-push HEAD to origin |
 | `:Gpull`    | Pull HEAD from origin with rebase |
 | `:Gglog`    | Global log with stat |
 | `:Gdlog`    | Global decorated log with stat highlighting branches |

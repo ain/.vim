@@ -63,6 +63,7 @@ command Gurl Git config --get remote.origin.url
 "endfunction
 "command! -nargs=1 Gpush call s:GPush(<f-args>)
 command Gpush Git push origin HEAD
+command Gpushf Git push -f origin HEAD
 command Gpull Git pull --rebase origin HEAD
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
