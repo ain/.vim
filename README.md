@@ -45,7 +45,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gstash`   | Stash |
 | `:Gfetch`   | Fetch |
 | `:Gtrack <remote_name> <branch>`   | Set upstream |
-| `:Gamend`   | Amend to last commit without edit (`git --amend --no-edit`) |
+| `:Gamend`   | Amend to last commit without edit (`git commit --amend --no-edit`) |
 | `:Gtags`    | List all tags with description (`git tag -l -n1`) |
 | `:Gcotag`   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`     | Checkout file in buffer from another branch |
