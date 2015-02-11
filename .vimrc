@@ -96,6 +96,10 @@ endfunction
 command! -nargs=1 Composer call s:Composer(<f-args>)
 
 " Rails-related aliases
+function! s:Rvm(args)
+  :execute "! rvm " . a:args
+endfunction
+command! -nargs=1 Rvm call s:Rvm(<f-args>)
 function! s:Cap(args)
   :execute "! cap " . a:args
 endfunction

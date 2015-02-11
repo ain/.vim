@@ -51,6 +51,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gcof <branch>`     | Checkout file in buffer from another branch |
 | `:Gmsg <message>`    | Change last commit message |
 | __Rails__ |
+| `:Rvm`    | Ruby Version Manager (RVM) |
 | `:Cap`    | Capistrano |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
