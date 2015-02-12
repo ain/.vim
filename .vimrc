@@ -22,6 +22,7 @@ set number            "put numbers on side
 set backspace=indent,eol,start
 set hidden
 set noswapfile
+set foldmethod=indent
 
 execute pathogen#infect()
 syntax on
