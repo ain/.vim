@@ -23,6 +23,7 @@ set backspace=indent,eol,start
 set hidden
 set noswapfile
 set foldmethod=indent
+set foldminlines=5
 
 execute pathogen#infect()
 syntax on
