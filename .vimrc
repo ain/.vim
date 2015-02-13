@@ -140,6 +140,7 @@ command A a
 command Qa qa
 command QA qa
 command Wq wq
+command Bw bw
 command Buffers buffers
 
 " If you prefer the Omni-Completion tip window to close when a selection is
