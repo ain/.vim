@@ -98,10 +98,10 @@ endfunction
 command! -nargs=1 Composer call s:Composer(<f-args>)
 
 " Rails-related aliases
-function! s:Cap(args)
-  :execute "! cap " . a:args
-endfunction
-command! -nargs=1 Cap call s:Cap(<f-args>)
+"function! s:Cap(args)
+  ":execute "! cap " . a:args
+"endfunction
+"command! -nargs=1 Cap call s:Cap(<f-args>)
 command Cstage ! cap staging deploy
 command Clive ! cap production deploy
 
