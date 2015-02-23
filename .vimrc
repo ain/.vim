@@ -12,7 +12,6 @@ set expandtab
 set formatoptions=cq
 set background=dark  "makes it easier to read with black backgroun:d
 colorscheme railscasts "set theme in ./vim/colors folder
-set ls=2            " always show status line
 set hlsearch        " highlight searches
 set incsearch       " do incremental searching
 set ruler           " show the cursor position all the time
@@ -24,6 +23,19 @@ set hidden
 set noswapfile
 set foldmethod=indent
 set foldminlines=5
+" Set advanced status line
+set laststatus=2                             " always show statusbar
+set statusline=
+set statusline+=%-10.3n\                     " buffer number
+set statusline+=%f\                          " filename
+set statusline+=%h%m%r%w                     " status flags
+set statusline+=\[%{strlen(&ft)?&ft:'none'}] " file type
+set statusline+=%=                           " right align remainder
+set statusline+=0x%-8B                       " character value
+set statusline+=%-14(%l,%c%V%)               " line, character
+set statusline+=%<%P                         " file position
+
+
 
 execute pathogen#infect()
 syntax on
