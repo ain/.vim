@@ -49,3 +49,6 @@
 [submodule "bundle/vim-rvm"]
 	path = bundle/vim-rvm
 	url = git@github.com:tpope/vim-rvm.git
+[submodule "bundle/vim-capistrano"]
+	path = bundle/vim-capistrano
+	url = git@github.com:ain/vim-capistrano.git
