@@ -14,4 +14,4 @@ fi
 echo "Checking status..."
 git status
 
-echo "Update completed! Please commit possible changes."
+echo "Update completed! Please commit possible changes if any."
