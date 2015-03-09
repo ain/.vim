@@ -138,16 +138,6 @@ command! -nargs=0 Breset call s:BReset()
 command Tstamp r! date +\%s
 command Md5 ! md5 %
 
-" Helper aliases
-command W w
-command Q q
-command A a
-command Qa qa
-command QA qa
-command Wq wq
-command Bw bw
-command Buffers buffers
-
 " If you prefer the Omni-Completion tip window to close when a selection is
 " " made, these lines close it on movement in insert mode or when leaving
 " " insert mode
