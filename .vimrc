@@ -159,3 +159,6 @@ let g:ctrlp_map = '<c-p>'
 
 " mustache
 let g:mustache_abbreviations = 1
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
