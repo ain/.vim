@@ -4,6 +4,9 @@ Subject to constant change, the goal of this repository is to store a polyglot c
 ## Plugins
 See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
+## Dependencies
+1. [ctags](http://ctags.sourceforge.net) for Tagbar. Install with `sudo port install ctags` (MacPorts).
+
 ## Installation
 1. Back up `~/.vim`
 2. Remove `rm -rf ~/.vim`
