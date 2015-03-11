@@ -1,13 +1,18 @@
 # My living Vim stack
+
 Subject to constant change, the goal of this repository is to store a polyglot coding environment setup for Vim.
 
 ## Plugins
+
 See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Dependencies
+
 1. [ctags](http://ctags.sourceforge.net) for Tagbar. Install with `sudo port install ctags` (MacPorts).
+2. [powerline-fonts](https://github.com/powerline/fonts) for [vim-airline](https://github.com/bling/vim-airline) advanced status bar and tabline.
 
 ## Installation
+
 1. Back up `~/.vim`
 2. Remove `rm -rf ~/.vim`
 3. Make sure you're in your home folder `cd ~`
@@ -15,6 +20,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 5. Symlink Vim configuration to home folder `ln -s ~/.vim/.vimrc .vimrc`
 
 ## Updates
+
 1. Run `./update`
 
 ## Cheatsheet
@@ -74,7 +80,9 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Tstamp` | Insert UNIX timestamp |
 
 ## Tips
+
 1. How to disable PressAndHold feature on Mac OS X Yosemite to restore key repeat: `defaults write com.apple.Terminal ApplePressAndHoldEnabled -bool false`
 
 ## Useful resources
+
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html)

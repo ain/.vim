@@ -35,8 +35,6 @@ set statusline+=0x%-8B                       " character value
 set statusline+=%-14(%l,%c%V%)               " line, character
 set statusline+=%<%P                         " file position
 
-
-
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -152,3 +150,9 @@ let g:mustache_abbreviations = 1
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" Advanced status bar and tabline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tabline#show_tabs = 1
+let g:airline#extensions#tabline#enabled = 1
