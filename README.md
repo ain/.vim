@@ -61,11 +61,12 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gcof <branch>`     | Checkout file in buffer from another branch |
 | `:Gmsg <message>`    | Change last commit message |
 | __Rails__ |
+| `:Rails`  | Rails support by [vim-rails](https://github.com/tpope/vim-rails) |
 | `:Rvm`    | Ruby Version Manager (RVM) |
-| `:Cap`    | Capistrano |
+| `:Cap`    | Capistrano support by [vim-capistrano](https://github.com/ain/vim-capistrano) |
 | `:Cstage` | Capistrano staging deploy |
 | `:Clive`  | Capistrano production deploy |
-| `:Rake <task>`  | Rake support by [vim-rake](https://github.com/tpope/vim-rake) |
+| `:Rake`  | Rake support by [vim-rake](https://github.com/tpope/vim-rake) |
 | __Node.js__ |
 | `:Npm <command>` | Shorthand for NPM, e.g. `:Npm i` |
 | `:Nreset` | Node module dependency reset (`rm -rf node_modules; npm i`) |
