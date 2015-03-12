@@ -58,3 +58,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/vim-partial"]
+	path = bundle/vim-partial
+	url = https://github.com/jbgutierrez/vim-partial
