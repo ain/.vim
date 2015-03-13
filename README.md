@@ -8,7 +8,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Dependencies
 
-1. [ctags](http://ctags.sourceforge.net) for Tagbar. Install with `sudo port install ctags` (MacPorts).
+1. [ctags](http://ctags.sourceforge.net) for [tagbar](https://github.com/majutsushi/tagbar). Install with `sudo port install ctags` (MacPorts).
 2. [powerline-fonts](https://github.com/powerline/fonts) for [vim-airline](https://github.com/bling/vim-airline) advanced status bar and tabline.
 
 ## Installation
@@ -31,6 +31,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:w !pbcopy`  | Copy entire buffer to pasteboard |
 | `"ay`         | Copy to _a_ register |
 | `"ap`         | Paste from _a_ register |
+| `F8`          | Launch tagbar |
 | __Surroundings__ |
 | `ds"`         | Remove double quotes on word under cursor |
 | `cs"'`        | Replace double quotes with single quotes on word under cursor |
