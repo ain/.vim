@@ -32,6 +32,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `"ay`         | Copy to _a_ register |
 | `"ap`         | Paste from _a_ register |
 | `F8`          | Launch tagbar |
+| __vim-partial__ |
+| `,x`          | Extract to partial |
 | __Surroundings__ |
 | `ds"`         | Remove double quotes on word under cursor |
 | `cs"'`        | Replace double quotes with single quotes on word under cursor |
