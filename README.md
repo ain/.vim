@@ -59,6 +59,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gfetch`   | Fetch |
 | `:Gtrack <remote_name> <branch>`   | Set upstream |
 | `:Gamend`   | Amend to last commit without edit (`git commit --amend --no-edit`) |
+| `:Grebuild` | Empty commit with message `Rebuild`, e.g. for GitHub Pages |
 | `:Gtags`    | List all tags with description (`git tag -l -n1`) |
 | `:Gcotag`   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`     | Checkout file in buffer from another branch |

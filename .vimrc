@@ -84,6 +84,7 @@ command Gc Gclean
 command Gstash Git stash
 command Gfetch Git fetch
 command Gamend Git commit --amend --no-edit
+command Grebuild Git commit -m 'Rebuild' --allow-empty
 function! s:GTrack(args)
   :execute "Git branch -u " . a:args
 endfunction
