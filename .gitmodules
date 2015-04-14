@@ -61,3 +61,6 @@
 [submodule "bundle/vim-partial"]
 	path = bundle/vim-partial
 	url = https://github.com/jbgutierrez/vim-partial
+[submodule "bundle/Dockerfile.vim"]
+	path = bundle/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
