@@ -64,3 +64,6 @@
 [submodule "bundle/Dockerfile.vim"]
 	path = bundle/Dockerfile.vim
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/vim-codereview"]
+	path = bundle/vim-codereview
+	url = git@github.com:codegram/vim-codereview.git
