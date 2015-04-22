@@ -24,65 +24,66 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 1. Run `./update`
 
 ## Cheatsheet
-| Vim command | Description     |
-|-------------|-----------------|
-| `gg=G`        | Fix indentation |
-| `dG`          | Delete till EOF |
+
+| Vim command   |  Description                     |
+| ------------- | -----------------                |
+| `gg=G`        | Fix indentation                  |
+| `dG`          | Delete till EOF                  |
 | `:w !pbcopy`  | Copy entire buffer to pasteboard |
-| `"ay`         | Copy to _a_ register |
-| `"ap`         | Paste from _a_ register |
-| `F8`          | Launch tagbar |
-| __vim-partial__ |
-| `,x`          | Extract to partial |
-| __Surroundings__ |
-| `ds"`         | Remove double quotes on word under cursor |
-| `cs"'`        | Replace double quotes with single quotes on word under cursor |
-| `ysiw'`       | Add single quotes on word under cursor |
-| __NERDCommenter__ |
-| `,cn` | Comment line or block |
-| `,ci` | Toggle comment on line or block |
-| __Git__ |
-| `:Ggrep <needle> -- <path>`  | Search for needle (optionally) at `<path>` |
-| `:Gbranch`  | Display Git branches with their tracked remotes, incl. current Git branch |
-| `:Gst`      | Display Git status |
-| `:Greset`   | Hard reset back to HEAD |
-| `:Gurl`     | Display remote origin URL |
-| `:Gpush`    | Push HEAD to origin |
-| `:Gpushf`   | Force-push HEAD to origin |
-| `:Gpull`    | Pull HEAD from origin with rebase |
-| `:Gglog`    | Global log with stat |
-| `:Gdlog`    | Global decorated log with stat highlighting branches |
-| `:Gflog`    | Detailed log of file in buffer |
-| `:Gclean`   | Remove newly created files |
-| `:Gc`       | Alias of `:Gclean` |
-| `:Gstash`   | Stash |
-| `:Gfetch`   | Fetch |
-| `:Gtrack <remote_name> <branch>`   | Set upstream |
-| `:Gamend`   | Amend to last commit without edit (`git commit --amend --no-edit`) |
-| `:Grebuild` | Empty commit with message `Rebuild`, e.g. for GitHub Pages |
-| `:Gtags`    | List all tags with description (`git tag -l -n1`) |
-| `:Gcotag`   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
-| `:Gcof <branch>`     | Checkout file in buffer from another branch |
-| `:Gmsg <message>`    | Change last commit message |
-| __Rails__ |
-| `:Rails`  | Rails support by [vim-rails](https://github.com/tpope/vim-rails) |
-| `:Rvm`    | Ruby Version Manager (RVM) |
-| `:Cap`    | Capistrano support by [vim-capistrano](https://github.com/ain/vim-capistrano) |
-| `:Cstage` | Capistrano staging deploy |
-| `:Clive`  | Capistrano production deploy |
-| `:Rake`  | Rake support by [vim-rake](https://github.com/tpope/vim-rake) |
-| __Node.js__ |
-| `:Npm <command>` | Shorthand for NPM, e.g. `:Npm i` |
-| `:Nreset` | Node module dependency reset (`rm -rf node_modules; npm i`) |
-| `:Ntest`  | Run Node tests |
-| __Bower__ |
-| `:Bower <command>` | Shorthand for Bower, e.g. `:Bower install` |
-| `:Breset` | Bower dependency reset |
-| __PHP__ |
-| `:Composer <command>` | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install` |
-| __Utilities__ |
-| `:Md5` | MD5 checksum of file in active buffer |
-| `:Tstamp` | Insert UNIX timestamp |
+| `"ay`         | Copy to _a_ register             |
+| `"ap`         | Paste from _a_ register          |
+| `F8`          | Launch tagbar                    |
+| __vim-partial__                  |
+| `,x`                             | Extract to partial                                                                                  |
+| __Surroundings__                 |
+| `ds"`                            | Remove double quotes on word under cursor                                                           |
+| `cs"'`                           | Replace double quotes with single quotes on word under cursor                                       |
+| `ysiw'`                          | Add single quotes on word under cursor                                                              |
+| __NERDCommenter__                |
+| `,cn`                            | Comment line or block                                                                               |
+| `,ci`                            | Toggle comment on line or block                                                                     |
+| __Git__                          |
+| `:Ggrep <needle> -- <path>`      | Search for needle (optionally) at `<path>`                                                          |
+| `:Gbranch`                       | Display Git branches with their tracked remotes, incl. current Git branch                           |
+| `:Gst`                           | Display Git status                                                                                  |
+| `:Greset`                        | Hard reset back to HEAD                                                                             |
+| `:Gurl`                          | Display remote origin URL                                                                           |
+| `:Gpush`                         | Push HEAD to origin                                                                                 |
+| `:Gpushf`                        | Force-push HEAD to origin                                                                           |
+| `:Gpull`                         | Pull HEAD from origin with rebase                                                                   |
+| `:Gglog`                         | Global log with stat                                                                                |
+| `:Gdlog`                         | Global decorated log with stat highlighting branches                                                |
+| `:Gflog`                         | Detailed log of file in buffer                                                                      |
+| `:Gclean`                        | Remove newly created files                                                                          |
+| `:Gc`                            | Alias of `:Gclean`                                                                                  |
+| `:Gstash`                        | Stash                                                                                               |
+| `:Gfetch`                        | Fetch                                                                                               |
+| `:Gtrack <remote_name> <branch>` | Set upstream                                                                                        |
+| `:Gamend`                        | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
+| `:Grebuild`                      | Empty commit with message `Rebuild`, e.g. for GitHub Pages                                          |
+| `:Gtags`                         | List all tags with description (`git tag -l -n1`)                                                   |
+| `:Gcotag`                        | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
+| `:Gcof <branch>`                 | Checkout file in buffer from another branch                                                         |
+| `:Gmsg <message>`                | Change last commit message                                                                          |
+| __Rails__                        |
+| `:Rails`                         | Rails support by [vim-rails](https://github.com/tpope/vim-rails)                                    |
+| `:Rvm`                           | Ruby Version Manager (RVM)                                                                          |
+| `:Cap`                           | Capistrano support by [vim-capistrano](https://github.com/ain/vim-capistrano)                       |
+| `:Cstage`                        | Capistrano staging deploy                                                                           |
+| `:Clive`                         | Capistrano production deploy                                                                        |
+| `:Rake`                          | Rake support by [vim-rake](https://github.com/tpope/vim-rake)                                       |
+| __Node.js__                      |
+| `:Npm <command>`                 | Shorthand for NPM, e.g. `:Npm i`                                                                    |
+| `:Nreset`                        | Node module dependency reset (`rm -rf node_modules; npm i`)                                         |
+| `:Ntest`                         | Run Node tests                                                                                      |
+| __Bower__                        |
+| `:Bower <command>`               | Shorthand for Bower, e.g. `:Bower install`                                                          |
+| `:Breset`                        | Bower dependency reset                                                                              |
+| __PHP__                          |
+| `:Composer <command>`            | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install`                         |
+| __Utilities__                    |
+| `:Md5`                           | MD5 checksum of file in active buffer                                                               |
+| `:Tstamp`                        | Insert UNIX timestamp                                                                               |
 
 ## Tips
 
