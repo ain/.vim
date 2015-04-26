@@ -1,17 +1,16 @@
 #!/bin/bash
 echo "Updating Vim environment..."
 git pull --rebase --recurse-submodules origin master
+
+# Ensure remotely added new submodules are considered.
 git submodule update --recursive --init
 
-echo "Validating update..."
-if [[ $(git submodule foreach git branch | grep "*") == *master* ]]; then
-  echo "Update valid, no corruption detected."
-else
-  echo "Update corrupt, trying to rescue..."
-  git submodule foreach git checkout master
-fi
+# Ensure all plugins are on master and up to date.
+git submodule foreach 'git checkout master && git pull origin master'
 
-echo "Checking status..."
+# Autocommit
+git commit -am "Update bundle" && git push origin master
+
 git status
 
-echo "Update completed! Please commit possible changes if any."
+echo "Update complete!"
