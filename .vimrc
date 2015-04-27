@@ -68,7 +68,8 @@ au BufWritePost * :set nobinary | set eol
 " Git-related aliasesG
 command Greset Git reset --hard HEAD
 command Gst Gstatus
-command Gbranch Git branch -vva
+command Gbranch Git branch
+command Gbranches Git branch -vva
 command Gurl Git config --get remote.origin.url
 "function! s:GPush(args)
   ":let name = redir("git rev-parse --symbolic-full-name --abbrev-ref calculator-core-133@{u} | cut -d'/' -f 1")

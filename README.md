@@ -46,7 +46,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `,ci`                            | Toggle comment on line or block                                                                     |
 | __Git__                          |
 | `:Ggrep <needle> -- <path>`      | Search for needle (optionally) at `<path>`                                                          |
-| `:Gbranch`                       | Display Git branches with their tracked remotes, incl. current Git branch                           |
+| `:Gbranch`                       | Display Git branches |
+| `:Gbranches`                       | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Gst`                           | Display Git status                                                                                  |
 | `:Greset`                        | Hard reset back to HEAD                                                                             |
 | `:Gurl`                          | Display remote origin URL                                                                           |
