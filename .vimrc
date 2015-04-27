@@ -71,15 +71,9 @@ command Gst Gstatus
 command Gbranch Git branch
 command Gbranches Git branch -vva
 command Gurl Git config --get remote.origin.url
-"function! s:GPush(args)
-  ":let name = redir("git rev-parse --symbolic-full-name --abbrev-ref calculator-core-133@{u} | cut -d'/' -f 1")
-  ":echo name
-  ":execute "Git push " . name .
-"endfunction
-"command! -nargs=1 Gpush call s:GPush(<f-args>)
-command Gpush Git push origin HEAD
-command Gpushf Git push -f origin HEAD
-command Gpull Git pull --rebase origin HEAD
+command Gpush Git push
+command Gpushf Git push -f
+command Gpull Git pull --rebase
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
