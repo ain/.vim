@@ -25,16 +25,16 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Cheatsheet
 
-| Vim command   |  Description                     |
-| ------------- | -----------------                |
-| `gg=G`        | Fix indentation                  |
-| `dG`          | Delete till EOF                  |
-| `:w !pbcopy`  | Copy entire buffer to pasteboard |
-| `"ay`         | Copy to _a_ register             |
-| `"ap`         | Paste from _a_ register          |
-| `F8`          | Launch tagbar                    |
+| Vim command                      |  Description                                                                                        |
+| -------------                    | -----------------                                                                                   |
+| `gg=G`                           | Fix indentation                                                                                     |
+| `dG`                             | Delete till EOF                                                                                     |
+| `:w !pbcopy`                     | Copy entire buffer to pasteboard                                                                    |
+| `"ay`                            | Copy to _a_ register                                                                                |
+| `"ap`                            | Paste from _a_ register                                                                             |
+| `F8`                             | Launch tagbar                                                                                       |
 | __tabular__                      |
-|  `:Tabularize /<regex>`          | Tabularise data by regular expression                                                               |
+|  `:Tab /<regex>`                 | Tabularise data by regular expression                                                               |
 | __vim-partial__                  |
 | `,x`                             | Extract to partial                                                                                  |
 | __Surroundings__                 |
@@ -46,8 +46,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `,ci`                            | Toggle comment on line or block                                                                     |
 | __Git__                          |
 | `:Ggrep <needle> -- <path>`      | Search for needle (optionally) at `<path>`                                                          |
-| `:Gbranch`                       | Display Git branches |
-| `:Gbranches`                       | Display Git branches with their tracked remotes, incl. current Git branch                           |
+| `:Gbranch`                       | Display Git branches                                                                                |
+| `:Gbranches`                     | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Gst`                           | Display Git status                                                                                  |
 | `:Greset`                        | Hard reset back to HEAD                                                                             |
 | `:Gurl`                          | Display remote origin URL                                                                           |
@@ -86,7 +86,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Composer <command>`            | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install`                         |
 | __Utilities__                    |
 | `:Md5`                           | MD5 checksum of file in active buffer                                                               |
-| `:Tstamp`                        | Insert UNIX timestamp                                                                               |
+| `:Tstamp`                        | Insert UNIX timestamp                                                                               |  
 
 ## Tips
 
