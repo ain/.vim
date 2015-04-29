@@ -73,7 +73,16 @@ command Gbranches Git branch -vva
 command Gurl echomsg system("git config --get remote.origin.url")[:-2]
 command Gpush Git push
 command Gpushf Git push -f
-command Gpull Git pull --rebase
+function! s:Gpull()
+  let pull = system("git pull --rebase")
+  if pull
+    echomsg "Pull successful!"
+  else
+    echomsg "Pull failed!"
+  endif
+endfunction
+command! -nargs=0 Gpull call s:Gpull()
+"command Gpull Git pull --rebase
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
@@ -87,7 +96,7 @@ function! s:GTrack(args)
 endfunction
 command! -nargs=1 Gtrack call s:GTrack(<f-args>)
 command Gtags Git tag -l -n1
-command Gcotag Git name-rev --tags --name-only $(git rev-parse HEAD)
+command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
 command Ghead Git checkout head -- %
 command Gflog Git log -p %
 function! s:Gcof(args)
