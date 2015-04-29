@@ -98,6 +98,11 @@ function! s:Gmsg(args)
   :execute "Git commit --amend -m " . a:args
 endfunction
 command! -nargs=1 Gmsg call s:Gmsg(<f-args>)
+function! s:Gpr(args)
+  :execute "Git fetch origin pull/" . a:args . "/head:pr/" . a:args
+  :execute "Git checkout pr/" . a:args
+endfunction
+command! -nargs=1 Gpr call s:Gpr(<f-args>)
 
 " PHP-related aliases
 function! s:Composer(args)

@@ -68,6 +68,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gcotag`                        | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`                 | Checkout file in buffer from another branch                                                         |
 | `:Gmsg <message>`                | Change last commit message                                                                          |
+| `:Gpr <ID>`                      | Fetch and checkout Pull Request by ID
 | __Rails__                        |
 | `:Rails`                         | Rails support by [vim-rails](https://github.com/tpope/vim-rails)                                    |
 | `:Rvm`                           | Ruby Version Manager (RVM)                                                                          |
