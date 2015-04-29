@@ -124,7 +124,7 @@ function! s:Bower(args)
 endfunction
 command! -nargs=1 Bower call s:Bower(<f-args>)
 function! s:BReset()
-  " TODO test https://github.com/bower/bower/pull/1617 instead
+  " TODO remove when https://github.com/bower/bower/pull/1617 is merged
   :let path = !glob(".bowerrc") ? 'bower_components' : 'bower_components'
   :execute "! rm -rvf " . path . "; bower --verbose cache clean; bower --verbose install;"
 endfunction
