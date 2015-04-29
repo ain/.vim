@@ -70,12 +70,7 @@ command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch
 command Gbranches Git branch -vva
-function s:Gurl()
-  let cmd = "git config --get remote.origin.url"
-  :echomsg system(cmd)[:-2]
-endfunction
-command! -nargs=0 Gurl call s:Gurl()
-command Gurl2 echomsg system("git config --get remote.origin.url")[:-2]
+command Gurl echomsg system("git config --get remote.origin.url")[:-2]
 command Gpush Git push
 command Gpushf Git push -f
 command Gpull Git pull --rebase
