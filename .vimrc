@@ -71,7 +71,7 @@ command Gst Gstatus
 command Gbranch Git branch
 command Gbranches Git branch -vva
 command Gurl echomsg system("git config --get remote.origin.url")[:-2]
-command Gpull Git pull --rebase
+"command Gpull echomsg system("git pull --rebase | tail -1")[:-2]
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
@@ -97,8 +97,10 @@ function! s:Gmsg(args)
 endfunction
 command! -nargs=1 Gmsg call s:Gmsg(<f-args>)
 function! s:Gpr(args)
-  :execute "Git fetch origin pull/" . a:args . "/head:pr/" . a:args
-  :execute "Git checkout pr/" . a:args
+  :echomsg "Checking out Pull Request #" . a:args . "..."
+  :call system("git fetch origin pull/" . a:args . "/head:pr/" . a:args . " && git checkout pr/" . a:args)
+  :echomsg "Checked out Pull Request #" . a:args
+  " TODO skip need for Enter
 endfunction
 command! -nargs=1 Gpr call s:Gpr(<f-args>)
 
