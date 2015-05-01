@@ -71,7 +71,9 @@ command Gst Gstatus
 command Gbranch Git branch
 command Gbranches Git branch -vva
 command Gurl echomsg system("git config --get remote.origin.url")[:-2]
-"command Gpull echomsg system("git pull --rebase | tail -1")[:-2]
+command Gpull Git pull --rebase
+command Gpush Git push
+command Gpushf Git push -f
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
