@@ -125,18 +125,6 @@ command! -nargs=1 Npm call s:Npm(<f-args>)
 command Nreset ! rm -rf node_modules; npm i
 command Ntest ! npm test
 
-" Bower
-function! s:Bower(args)
-  :execute "! bower " . a:args
-endfunction
-command! -nargs=1 Bower call s:Bower(<f-args>)
-function! s:BReset()
-  " TODO remove when https://github.com/bower/bower/pull/1617 is merged
-  :let path = !glob(".bowerrc") ? 'bower_components' : 'bower_components'
-  :execute "! rm -rvf " . path . "; bower --verbose cache clean; bower --verbose install;"
-endfunction
-command! -nargs=0 Breset call s:BReset()
-
 " Utilities
 command Tstamp :execute ":normal i" . system("date +\%s")[:-2]
 command Md5 :echomsg system("md5 " . expand("%"))[:-2]
