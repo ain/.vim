@@ -87,7 +87,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Composer <command>`            | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install`                         |
 | __Utilities__                    |
 | `:Md5`                           | MD5 checksum of file in active buffer                                                               |
-| `:Tstamp`                        | Insert UNIX timestamp                                                                               |  
+| `:Tstamp`                        | Insert UNIX timestamp at cursor                                                                     |  
 
 ## Tips
 
