@@ -139,7 +139,7 @@ command! -nargs=0 Breset call s:BReset()
 
 " Utilities
 command Tstamp :execute ":normal i" . system("date +\%s")[:-2]
-command Md5 ! md5 %
+command Md5 :echomsg system("md5 " . expand("%"))[:-2]
 
 " If you prefer the Omni-Completion tip window to close when a selection is
 " " made, these lines close it on movement in insert mode or when leaving
