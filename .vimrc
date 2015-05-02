@@ -138,7 +138,7 @@ endfunction
 command! -nargs=0 Breset call s:BReset()
 
 " Utilities
-command Tstamp r! date +\%s
+command Tstamp :execute ":normal i" . system("date +\%s")[:-2]
 command Md5 ! md5 %
 
 " If you prefer the Omni-Completion tip window to close when a selection is
