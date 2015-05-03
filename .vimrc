@@ -56,7 +56,6 @@ au VimEnter *  NERDTree " open NERDTree automatically
 
 " Associate uncommon filetypes
 au BufRead,BufNewFile *.rake setfiletype ruby
-au BufRead,BufNewFile *.thor setfiletype ruby
 au BufRead,BufNewFile Guardfile setfiletype ruby
 au BufRead,BufNewFile *.module setfiletype php
 au BufRead,BufNewFile *.install setfiletype php
