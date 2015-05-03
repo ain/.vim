@@ -65,7 +65,7 @@ au BufRead,BufNewFile *.install setfiletype php
 au BufWritePre * :set binary | set noeol
 au BufWritePost * :set nobinary | set eol
 
-" Git-related aliasesG
+" Git-related aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch
@@ -116,14 +116,6 @@ command! -nargs=1 Composer call s:Composer(<f-args>)
 " Requires vim-capistrano
 command Cstage Cap staging deploy
 command Clive Cap production deploy
-
-" Node and NPM-related aliases
-function! s:Npm(args)
-  :execute "! npm " . a:args
-endfunction
-command! -nargs=1 Npm call s:Npm(<f-args>)
-command Nreset ! rm -rf node_modules; npm i
-command Ntest ! npm test
 
 " Utilities
 command Tstamp :execute ":normal i" . system("date +\%s")[:-2]

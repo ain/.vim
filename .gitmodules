@@ -76,3 +76,6 @@
 [submodule "bundle/vim-bower"]
 	path = bundle/vim-bower
 	url = https://github.com/ain/vim-bower.git
+[submodule "bundle/vim-npm"]
+	path = bundle/vim-npm
+	url = git@github.com:ain/vim-npm.git
