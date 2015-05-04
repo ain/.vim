@@ -58,6 +58,7 @@ au VimEnter *  NERDTree " open NERDTree automatically
 au BufRead,BufNewFile Guardfile setfiletype ruby
 au BufRead,BufNewFile *.module setfiletype php
 au BufRead,BufNewFile *.install setfiletype php
+au BufRead,BufNewFile *.md setfiletype markdown
 
 " Take care of eol
 au BufWritePre * :set binary | set noeol
