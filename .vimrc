@@ -90,24 +90,24 @@ command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse H
 command Ghead Git checkout head -- %
 command Gflog Git log -p %
 function! s:Gcof(args)
-  :execute "Git checkout " . a:args . " -- %"
+  execute "Git checkout " . a:args . " -- %"
 endfunction
 command! -nargs=1 Gcof call s:Gcof(<f-args>)
 function! s:Gmsg(args)
-  :execute "Git commit --amend -m " . a:args
+  execute "Git commit --amend -m " . a:args
 endfunction
 command! -nargs=1 Gmsg call s:Gmsg(<f-args>)
 function! s:Gpr(args)
-  :echomsg "Checking out Pull Request #" . a:args . "..."
-  :call system("git fetch origin pull/" . a:args . "/head:pr/" . a:args . " && git checkout pr/" . a:args)
-  :echomsg "Checked out Pull Request #" . a:args
+  echomsg "Checking out Pull Request #" . a:args . "..."
+  call system("git fetch origin pull/" . a:args . "/head:pr/" . a:args . " && git checkout pr/" . a:args)
+  echomsg "Checked out Pull Request #" . a:args
   " TODO skip need for Enter
 endfunction
 command! -nargs=1 Gpr call s:Gpr(<f-args>)
 
 " PHP-related aliases
 function! s:Composer(args)
-  :execute "! composer " . a:args
+  execute "! composer " . a:args
 endfunction
 command! -nargs=1 Composer call s:Composer(<f-args>)
 
