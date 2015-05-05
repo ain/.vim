@@ -10,14 +10,14 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set formatoptions=cq
-set background=dark  "makes it easier to read with black backgroun:d
-colorscheme railscasts "set theme in ./vim/colors folder
-set hlsearch        " highlight searches
-set incsearch       " do incremental searching
-set ruler           " show the cursor position all the time
-set visualbell t_vb=    " turn off error beep/flash
-set ignorecase        "ignore case while searching
-set number            "put numbers on side
+set background=dark            " makes it easier to read with black backgroun:d
+colorscheme railscasts         " set theme in ./vim/colors folder
+set hlsearch                   " highlight searches
+set incsearch                  " do incremental searching
+set ruler                      " show the cursor position all the time
+set visualbell t_vb=           " turn off error beep/flash
+set ignorecase                 " ignore case while searching
+set number                     " put numbers on side
 set backspace=indent,eol,start
 set hidden
 set noswapfile
@@ -52,7 +52,7 @@ au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
 
 au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
-au VimEnter * NERDTree " open NERDTree automatically
+au VimEnter * NERDTree        " open NERDTree automatically
 
 " Associate uncommon filetypes
 au BufRead,BufNewFile Guardfile setfiletype ruby
