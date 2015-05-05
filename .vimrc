@@ -52,7 +52,7 @@ au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
 
 au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
-au VimEnter *  NERDTree " open NERDTree automatically
+au VimEnter * NERDTree " open NERDTree automatically
 
 " Associate uncommon filetypes
 au BufRead,BufNewFile Guardfile setfiletype ruby
@@ -82,7 +82,7 @@ command Gfetch Git fetch
 command Gamend Git commit --amend --no-edit
 command Grebuild Git commit -m 'Rebuild' --allow-empty
 function! s:GTrack(args)
-  :execute "Git branch -u " . a:args
+  echomsg system("git branch -u " . a:args)[:-2]
 endfunction
 command! -nargs=1 Gtrack call s:GTrack(<f-args>)
 command Gtags Git tag -l -n1
