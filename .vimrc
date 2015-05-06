@@ -51,8 +51,8 @@ au FileType html,xhtml setl ofu=htmlcomplete#CompleteTags
 au FileType c setl ofu=ccomplete#CompleteCpp
 au FileType css setl ofu=csscomplete#CompleteCSS
 
-au BufWritePre * :%s/\s\+$//e " remove trailing whitespace
-au VimEnter * NERDTree        " open NERDTree automatically
+au BufWritePre * :%s/\s\+$//e        " remove trailing whitespace
+au VimEnter * NERDTree | wincmd p    " open NERDTree automatically, focus on file buffer
 
 " Associate uncommon filetypes
 au BufRead,BufNewFile Guardfile setfiletype ruby
