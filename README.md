@@ -76,12 +76,13 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Cstage`                        | Capistrano staging deploy                                                                           |
 | `:Clive`                         | Capistrano production deploy                                                                        |
 | `:Rake`                          | Rake support by [vim-rake](https://github.com/tpope/vim-rake)                                       |
+| `:Thor`                          | Thor support by [vim-thor](https://github.com/ain/vim-thor)
 | __Node.js__                      |
-| `:Npm <command>`                 | Shorthand for NPM, e.g. `:Npm i`                                                                    |
-| `:Nreset`                        | Node module dependency reset (`rm -rf node_modules; npm i`)                                         |
+| `:Npm <command>`                 | NPM support by [vim-npm](https://github.com/ain/vim-npm)                                            |
+| `:Nreset`                        | Reset Node modules (delete > clean cache > install)                                                 |
 | `:Ntest`                         | Run Node tests                                                                                      |
 | __Bower__                        |
-| `:Bower <command>`               | Shorthand for Bower, e.g. `:Bower install`                                                          |
+| `:Bower <command>`               | Bower support by [vim-bower](https://github.com/ain/vim-bower)                                      |
 | `:Breset`                        | Bower dependency reset                                                                              |
 | __PHP__                          |
 | `:Composer <command>`            | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install`                         |
