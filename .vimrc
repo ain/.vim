@@ -140,3 +140,6 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#show_tabs = 1
 let g:airline#extensions#tabline#enabled = 1
+
+" Syntastic JavaScript check with JSCS
+let g:syntastic_javascript_checkers=['jscs']
