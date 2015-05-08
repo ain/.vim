@@ -79,3 +79,6 @@
 [submodule "bundle/vim-thor"]
 	path = bundle/vim-thor
 	url = git@github.com:ain/vim-thor.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
