@@ -13,4 +13,4 @@ git commit -am "Update bundle" && git push origin master
 
 git status
 
-echo "Update complete!"
+echo " $COL_GREEN Update complete! $COL_RESET"
