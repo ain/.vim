@@ -82,3 +82,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-composer"]
+	path = bundle/vim-composer
+	url = git@github.com:ain/vim-composer.git

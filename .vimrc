@@ -105,12 +105,6 @@ function! s:Gpr(args)
 endfunction
 command! -nargs=1 Gpr call s:Gpr(<f-args>)
 
-" PHP-related aliases
-function! s:Composer(args)
-  execute "! composer " . a:args
-endfunction
-command! -nargs=1 Composer call s:Composer(<f-args>)
-
 " Rails-related aliases
 " Requires vim-capistrano
 command Cstage Cap staging deploy
