@@ -86,7 +86,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Bower <command>`               | Bower support by [vim-bower](https://github.com/ain/vim-bower)                                      |
 | `:Breset`                        | Bower dependency reset                                                                              |
 | __PHP__                          |
-| `:Composer <command>`            | Shorthand for [Composer](https://getcomposer.org), e.g. `:Composer install`                         |
+| `:Composer <command>`            | [Composer](https://getcomposer.org) support by [vim-composer](https://github.com/ain/vim-composer)  |
 | __Utilities__                    |
 | `:Md5`                           | MD5 checksum of file in active buffer                                                               |
 | `:Tstamp`                        | Insert UNIX timestamp at cursor                                                                     |  
