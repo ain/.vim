@@ -81,10 +81,6 @@ command Gstash Git stash
 command Gfetch Git fetch
 command Gamend Git commit --amend --no-edit
 command Grebuild Git commit -m 'Rebuild' --allow-empty
-function! s:GTrack(args)
-  echomsg system("git branch -u " . a:args)[:-2]
-endfunction
-command! -nargs=1 Gtrack call s:GTrack(<f-args>)
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
 command Ghead Git checkout head -- %

@@ -62,7 +62,6 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gc`                            | Alias of `:Gclean`                                                                                  |
 | `:Gstash`                        | Stash                                                                                               |
 | `:Gfetch`                        | Fetch                                                                                               |
-| `:Gtrack <remote_name> <branch>` | Set upstream                                                                                        |
 | `:Gamend`                        | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
 | `:Grebuild`                      | Empty commit with message `Rebuild`, e.g. for GitHub Pages                                          |
 | `:Gtags`                         | List all tags with description (`git tag -l -n1`)                                                   |
