@@ -14,3 +14,8 @@ git commit -am "Update bundle" && git push origin master
 git status
 
 echo " $COL_GREEN Update complete! $COL_RESET"
+
+if hash terminal-notifier 2>/dev/null
+then
+  terminal-notifier -message "Update complete!" -title "Vim" -activate com.apple.Terminal
+fi
