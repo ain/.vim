@@ -69,6 +69,7 @@ command Greset Git reset --hard HEAD
 command Gst Gstatus
 command Gbranch Git branch
 command Gbranches Git branch -vva
+command Grmbranches Git branch | grep -v "master" | sed 's/^[ *]*//' | sed 's/^/git branch -d /' | bash
 command Gurl echomsg system("git config --get remote.origin.url")[:-2]
 command Gpull Git pull --rebase
 command Gpush Git push
