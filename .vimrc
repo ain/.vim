@@ -61,8 +61,9 @@ au BufRead,BufNewFile *.install setfiletype php
 au BufRead,BufNewFile *.md setfiletype markdown
 
 " Take care of eol
-au BufWritePre * :set binary | set noeol
-au BufWritePost * :set nobinary | set eol
+" XXX temporarily restored for the sake of common standards
+"au BufWritePre * :set binary | set noeol
+"au BufWritePost * :set nobinary | set eol
 
 " Git-related aliases
 command Greset Git reset --hard HEAD
