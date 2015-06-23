@@ -50,6 +50,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gbranch`                  | Display Git branches                                                                                |
 | `:Gbranches`                | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Grmbranches`              | Remove all local branches exc. master                                                               |
+| `:Grmrbranches`              | Remove all remote branches exc. master                                                               |
 | `:Gst`                      | Display Git status                                                                                  |
 | `:Greset`                   | Hard reset back to HEAD                                                                             |
 | `:Gurl`                     | Display remote origin URL                                                                           |
