@@ -91,13 +91,14 @@ function! s:Gmsg(args)
   execute "Git commit --amend -m " . a:args
 endfunction
 command! -nargs=1 Gmsg call s:Gmsg(<f-args>)
-function! s:Gpr(args)
-  echomsg "Checking out Pull Request #" . a:args . "..."
-  call system("git fetch origin pull/" . a:args . "/head:pr/" . a:args . " && git checkout pr/" . a:args)
-  echomsg "Checked out Pull Request #" . a:args
+function! s:Gpr(remote, pr)
+  " TODO argument validation
+  echomsg "Checking out Pull Request #" . a:pr . " from " . a:remote . "..."
+  call system("git fetch " . a:remote . " pull/" . a:pr . "/head:pr/" . a:pr . " && git checkout pr/" . a:pr)
+  echomsg "Checked out Pull Request #" . a:pr . " from " . a:remote
   " TODO skip need for Enter
 endfunction
-command! -nargs=1 Gpr call s:Gpr(<f-args>)
+command! -nargs=* Gpr call s:Gpr(<f-args>)
 
 " Rails-related aliases
 " Requires vim-capistrano
