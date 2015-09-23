@@ -99,6 +99,12 @@ function! s:Gpr(remote, pr)
   " TODO skip need for Enter
 endfunction
 command! -nargs=* Gpr call s:Gpr(<f-args>)
+function! s:Gbranchd(args)
+  " TODO validate branch name and existance
+  execute "Git branch -D " . a:args
+  execute "Git push origin :" . a:args
+endfunction
+command! -nargs=1 Gbranchd call s:Gbranchd(<f-args>)
 
 " Rails-related aliases
 " Requires vim-capistrano
