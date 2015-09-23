@@ -100,9 +100,10 @@ function! s:Gpr(remote, pr)
 endfunction
 command! -nargs=* Gpr call s:Gpr(<f-args>)
 function! s:Gbranchd(args)
-  " TODO validate branch name and existance
-  execute "Git branch -D " . a:args
-  execute "Git push origin :" . a:args
+  " TODO validate branch name and existence
+  echomsg "Deleting " . a:args
+  call system("git branch -D " . a:args . " && git push origin :" . a:args)
+  echomsg "Deletion complete"
 endfunction
 command! -nargs=1 Gbranchd call s:Gbranchd(<f-args>)
 
