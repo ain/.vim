@@ -68,9 +68,12 @@ command Gbranches Git branch -vva
 command Grmbranches Git branch | grep -v master | sed 's/^[ *]*//' | sed 's/^/git branch -d /' | bash
 command Grmrbranches Git branch -r | grep origin/ | grep -v master | grep -v HEAD| cut -d/ -f2 | while read line; do git push origin :$line; done;
 command Gurl echomsg system("git config --get remote.origin.url")[:-2]
-command Gpull Git pull --rebase
-command Gpush Git push
+command Gpull Git pull --rebase origin $(git symbolic-ref --short HEAD)
+command Gpullu Git pull --rebase upstream $(git symbolic-ref --short HEAD)
+command Gpush Git push -u origin $(git symbolic-ref --short HEAD)
+command Gpushu Git push upstream $(git symbolic-ref --short HEAD)
 command Gpushf Git push -f
+command Gpushfu Git push -f upstream $(git symbolic-ref --short HEAD)
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gclean Git clean -f -d
