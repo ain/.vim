@@ -91,7 +91,7 @@ function! s:Gcof(args)
   execute "Git checkout " . a:args . " -- %"
 endfunction
 command! -nargs=1 Gcof call s:Gcof(<f-args>)
-" FIXME:
+" FIXME: processes hashes within message.
 function! s:Gmsg(args)
   execute "Git commit --amend -m " . a:args
 endfunction
