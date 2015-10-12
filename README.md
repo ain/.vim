@@ -50,20 +50,20 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gbranch`                  | Display Git branches                                                                                |
 | `:Gbranches`                | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Grmbranches`              | Remove all local branches exc. master                                                               |
-| `:Grmrbranches`              | Remove all remote branches exc. master                                                               |
+| `:Grmrbranches`             | Remove all remote branches exc. master                                                              |
 | `:Gst`                      | Display Git status                                                                                  |
 | `:Greset`                   | Hard reset back to HEAD                                                                             |
 | `:Gurl`                     | Display remote origin URL                                                                           |
-| `:Gpush`                    | Push current branch to origin autosetting upstream |
-| `:Gpushu`                   | Push current branch to origin autosetting upstream |
-| `:Gpushf`                   | Force-push current branch to origin |
-| `:Gpushfu`                  | Force-push current branch to upstream |
-| `:Gpull`                    | Pull current branch from origin with rebase |
-| `:Gpullu`                   | Pull current branch from upstream with rebase |
+| `:Gpush`                    | Push current branch to origin autosetting upstream                                                  |
+| `:Gpushu`                   | Push current branch to origin autosetting upstream                                                  |
+| `:Gpushf`                   | Force-push current branch to origin                                                                 |
+| `:Gpushfu`                  | Force-push current branch to upstream                                                               |
+| `:Gpull`                    | Pull current branch from origin with rebase                                                         |
+| `:Gpullu`                   | Pull current branch from upstream with rebase                                                       |
 | `:Gglog`                    | Global log with stat                                                                                |
 | `:Gdlog`                    | Global decorated log with stat highlighting branches                                                |
 | `:Gflog`                    | Detailed log of file in buffer                                                                      |
-| `:Gblog`                    | Current branch log |
+| `:Gblog`                    | Current branch log                                                                                  |
 | `:Gclean`                   | Remove newly created files                                                                          |
 | `:Gc`                       | Alias of `:Gclean`                                                                                  |
 | `:Gstash`                   | Stash                                                                                               |
@@ -74,8 +74,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gcotag`                   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`            | Checkout file in buffer from another branch                                                         |
 | `:Gmsg <message>`           | Change last commit message                                                                          |
-| `:Gpr <remote> <ID>`        | Fetch and checkout Pull Request from remote by ID |
-| `:Gbranchd <branch>`        | Delete branch locally and at origin |
+| `:Gpr <remote> <ID>`        | Fetch and checkout Pull Request from remote by ID                                                   |
+| `:Gbranchd <branch>`        | Delete branch locally and at origin                                                                 |
 | __Rails__                   |
 | `:Rails`                    | Rails support by [vim-rails](https://github.com/tpope/vim-rails)                                    |
 | `:Rvm`                      | Ruby Version Manager (RVM)                                                                          |
