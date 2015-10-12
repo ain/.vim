@@ -99,7 +99,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Tips
 
-1. How to disable PressAndHold feature on Mac OS X Yosemite to restore key repeat: `defaults write com.apple.Terminal ApplePressAndHoldEnabled -bool false`
+1. Disabling PressAndHold feature on Mac OS X Yosemite (or greater) to restore key repeat: `defaults write com.apple.Terminal ApplePressAndHoldEnabled -bool false`
 
 ## Useful resources
 
