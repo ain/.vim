@@ -77,6 +77,7 @@ command Gpushfu Git push -f upstream $(git symbolic-ref --short HEAD)
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
 command Gblog Git log --stat --decorate $(git symbolic-ref --short HEAD)
+command Gflog Git log -p %
 command Gclean Git clean -f -d
 command Gc Gclean
 command Gstash Git stash
@@ -86,11 +87,11 @@ command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
 command Ghead Git checkout head -- %
-command Gflog Git log -p %
 function! s:Gcof(args)
   execute "Git checkout " . a:args . " -- %"
 endfunction
 command! -nargs=1 Gcof call s:Gcof(<f-args>)
+" FIXME:
 function! s:Gmsg(args)
   execute "Git commit --amend -m " . a:args
 endfunction
