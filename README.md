@@ -73,7 +73,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gtags`                    | List all tags with description (`git tag -l -n1`)                                                   |
 | `:Gcotag`                   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`            | Checkout file in buffer from another branch                                                         |
-| `:Gmsg <message>`           | Change last commit message                                                                          |
+| `:Gmsg`                     | Change last commit message                                                                          |
 | `:Gpr <remote> <ID>`        | Fetch and checkout Pull Request from remote by ID                                                   |
 | `:Gbranchd <branch>`        | Delete branch locally and at origin                                                                 |
 | __Rails__                   |

@@ -87,15 +87,11 @@ command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
 command Ghead Git checkout head -- %
+command Gmsg Gcommit --amend
 function! s:Gcof(args)
   execute "Git checkout " . a:args . " -- %"
 endfunction
 command! -nargs=1 Gcof call s:Gcof(<f-args>)
-" FIXME: processes hashes within message.
-function! s:Gmsg(args)
-  execute "Git commit --amend -m " . a:args
-endfunction
-command! -nargs=1 Gmsg call s:Gmsg(<f-args>)
 function! s:Gpr(remote, pr)
   " TODO argument validation
   echomsg "Checking out Pull Request #" . a:pr . " from " . a:remote . "..."
