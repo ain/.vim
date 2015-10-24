@@ -54,11 +54,11 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gst`                      | Display Git status                                                                                  |
 | `:Greset`                   | Hard reset back to HEAD                                                                             |
 | `:Gurl`                     | Display remote origin URL                                                                           |
-| `:Gpush`                    | Push current branch to origin autosetting upstream                                                  |
+| `:Gpusho`                    | Push current branch to origin autosetting upstream                                                  |
 | `:Gpushu`                   | Push current branch to origin autosetting upstream                                                  |
 | `:Gpushf`                   | Force-push current branch to origin                                                                 |
 | `:Gpushfu`                  | Force-push current branch to upstream                                                               |
-| `:Gpull`                    | Pull current branch from origin with rebase                                                         |
+| `:Gpullo`                    | Pull current branch from origin with rebase                                                         |
 | `:Gpullu`                   | Pull current branch from upstream with rebase                                                       |
 | `:Gglog`                    | Global log with stat                                                                                |
 | `:Gdlog`                    | Global decorated log with stat highlighting branches                                                |
@@ -67,7 +67,6 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gclean`                   | Remove newly created files                                                                          |
 | `:Gc`                       | Alias of `:Gclean`                                                                                  |
 | `:Gstash`                   | Stash                                                                                               |
-| `:Gfetch`                   | Fetch                                                                                               |
 | `:Gamend`                   | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
 | `:Grebuild`                 | Empty commit with message `Rebuild`, e.g. for GitHub Pages                                          |
 | `:Gtags`                    | List all tags with description (`git tag -l -n1`)                                                   |
