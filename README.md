@@ -103,3 +103,4 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 ## Useful resources
 
 - [vim tips and tricks](http://www.cs.swarthmore.edu/help/vim/home.html)
+- [vim-fugitive doc](https://raw.githubusercontent.com/tpope/vim-fugitive/master/doc/fugitive.txt)
