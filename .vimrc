@@ -85,7 +85,6 @@ command Gamend Git commit --amend --no-edit
 command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
-command Ghead Git checkout head -- %
 command Gmsg Gcommit --amend
 function! s:Gcof(args)
   execute "Git checkout " . a:args . " -- %"
