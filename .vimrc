@@ -128,7 +128,7 @@ let g:ctrlp_map = '<c-p>'
 let g:mustache_abbreviations = 1
 
 " Tagbar
-nmap <F8> :TagbarToggle<CR>
+"nmap <F8> :TagbarToggle<CR>
 
 " Advanced status bar and tabline
 let g:airline_powerline_fonts = 1

@@ -52,9 +52,6 @@
 [submodule "bundle/vim-capistrano"]
 	path = bundle/vim-capistrano
 	url = git@github.com:ain/vim-capistrano.git
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
