@@ -1,3 +1,4 @@
+set shell=/bin/sh
 set smartindent
 set encoding=utf-8
 set textwidth=0
