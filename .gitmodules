@@ -6,7 +6,7 @@
 	url = https://github.com/tpope/vim-bundler.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
+  url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -82,3 +82,6 @@
 [submodule "bundle/vim-composer"]
 	path = bundle/vim-composer
 	url = git@github.com:ain/vim-composer.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
