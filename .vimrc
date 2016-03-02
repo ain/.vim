@@ -115,6 +115,7 @@ command Clive Cap production deploy
 
 " Utilities
 command Tstamp :execute ":normal i" . system("date +\%s")[:-2]
+command Pwd :execute ":normal i" . system("pwgen -c1y 12")
 command Md5 :echomsg system("md5 " . expand("%"))[:-2]
 
 " If you prefer the Omni-Completion tip window to close when a selection is

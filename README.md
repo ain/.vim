@@ -11,6 +11,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 1. [ctags](http://ctags.sourceforge.net) for [tagbar](https://github.com/majutsushi/tagbar). Install with `sudo port install ctags` (MacPorts).
 2. [powerline-fonts](https://github.com/powerline/fonts) for [vim-airline](https://github.com/bling/vim-airline) advanced status bar and tabline.
 3. [JSCS](http://jscs.info). Install with `npm install -g jscs`.
+4. [pwgen](http://linux.die.net/man/1/pwgen). Install with Homebrew or MacPorts.
 
 ## Installation
 
@@ -95,6 +96,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Utilities__               |
 | `:Md5`                      | MD5 checksum of file in active buffer                                                               |
 | `:Tstamp`                   | Insert UNIX timestamp at cursor                                                                     |  
+| `:Pwd`                   | Insert 12-char alphanumeric password at cursor                                                                     |  
 
 ## Tips
 
