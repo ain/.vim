@@ -1,4 +1,4 @@
-set shell=/bin/sh
+set shell=/bin/bash
 set smartindent
 set encoding=utf-8
 set textwidth=0
