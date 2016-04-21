@@ -126,6 +126,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " ctrlp plugin for quick buffer navigation
 let g:ctrlp_map = '<c-p>'
+let g:ctrlp_working_path_mode = 'ra'
 
 " mustache
 let g:mustache_abbreviations = 1
