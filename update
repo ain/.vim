@@ -8,6 +8,10 @@ git submodule update --recursive --init
 # Ensure all plugins are on master and up to date.
 git submodule foreach 'git checkout master && git pull origin master'
 
+# Recompile YCM
+# TODO: detect YCM change since last compilation
+./bundle/youcompleteme/install.py --clang-completer --tern-completer
+
 # Autocommit
 git commit -am "Update bundle" && git push origin master
 
