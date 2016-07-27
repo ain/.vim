@@ -36,7 +36,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `"ap`                       | Paste from _a_ register                                                                             |
 | `F8`                        | Launch tagbar                                                                                       |
 | __tabular__                 |
-|  `:Tab /<regex>`            | Tabularise data by regular expression                                                               |
+|  `:Tabularize /<regex>`     | Tabularise data by regular expression                                                               |
 | __vim-partial__             |
 | `,x`                        | Extract to partial                                                                                  |
 | __Surroundings__            |
@@ -55,11 +55,11 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gst`                      | Display Git status                                                                                  |
 | `:Greset`                   | Hard reset back to HEAD                                                                             |
 | `:Gurl`                     | Display remote origin URL                                                                           |
-| `:Gpusho`                    | Push current branch to origin autosetting upstream                                                  |
+| `:Gpusho`                   | Push current branch to origin autosetting upstream                                                  |
 | `:Gpushu`                   | Push current branch to origin autosetting upstream                                                  |
 | `:Gpushf`                   | Force-push current branch to origin                                                                 |
 | `:Gpushfu`                  | Force-push current branch to upstream                                                               |
-| `:Gpullo`                    | Pull current branch from origin with rebase                                                         |
+| `:Gpullo`                   | Pull current branch from origin with rebase                                                         |
 | `:Gpullu`                   | Pull current branch from upstream with rebase                                                       |
 | `:Gglog`                    | Global log with stat                                                                                |
 | `:Gdlog`                    | Global decorated log with stat highlighting branches                                                |
@@ -69,7 +69,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gc`                       | Alias of `:Gclean`                                                                                  |
 | `:Gstash`                   | Stash                                                                                               |
 | `:Gamend`                   | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
-| `:Grebuild`                 | Empty commit with message `Rebuild`, e.g. for GitHub Pages                                          |
+| `:Grebuild`                 | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
 | `:Gtags`                    | List all tags with description (`git tag -l -n1`)                                                   |
 | `:Gcotag`                   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
 | `:Gcof <branch>`            | Checkout file in buffer from another branch                                                         |
@@ -83,7 +83,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Cstage`                   | Capistrano staging deploy                                                                           |
 | `:Clive`                    | Capistrano production deploy                                                                        |
 | `:Rake`                     | Rake support by [vim-rake](https://github.com/tpope/vim-rake)                                       |
-| `:Thor`                     | Thor support by [vim-thor](https://github.com/ain/vim-thor)
+| `:Thor`                     | Thor support by [vim-thor](https://github.com/ain/vim-thor)                                         |
 | __Node.js__                 |
 | `:Npm <command>`            | NPM support by [vim-npm](https://github.com/ain/vim-npm)                                            |
 | `:Nreset`                   | Reset Node modules (delete > clean cache > install)                                                 |
@@ -96,7 +96,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | __Utilities__               |
 | `:Md5`                      | MD5 checksum of file in active buffer                                                               |
 | `:Tstamp`                   | Insert UNIX timestamp at cursor                                                                     |  
-| `:Pwd`                   | Insert 12-char alphanumeric password at cursor                                                                     |  
+| `:Pwd`                      | Insert 12-char alphanumeric password at cursor                                                      |  
 
 ## Tips
 
