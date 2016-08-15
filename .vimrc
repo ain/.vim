@@ -35,6 +35,10 @@ set statusline+=%=                           " right align remainder
 set statusline+=0x%-8B                       " character value
 set statusline+=%-14(%l,%c%V%)               " line, character
 set statusline+=%<%P                         " file position
+" For Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 execute pathogen#infect()
 syntax on
@@ -143,3 +147,4 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Syntastic JavaScript check with JSCS
 let g:syntastic_javascript_checkers=['jscs']
+"let g:syntastic_debug=3
