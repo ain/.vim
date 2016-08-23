@@ -146,5 +146,5 @@ let g:airline#extensions#tabline#show_tabs = 1
 let g:airline#extensions#tabline#enabled = 1
 
 " Syntastic JavaScript check with JSCS
-let g:syntastic_javascript_checkers=['jscs']
+autocmd FileType javascript let b:syntastic_checkers = findfile('.jscsrc') != '' ? ['jscs'] : ['jshint']
 "let g:syntastic_debug=3
