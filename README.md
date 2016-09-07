@@ -76,6 +76,10 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Gmsg`                     | Change last commit message                                                                          |
 | `:Gpr <remote> <ID>`        | Fetch and checkout Pull Request from remote by ID                                                   |
 | `:Gbranchd <branch>`        | Delete branch locally and at origin                                                                 |
+| __Docker__                  |
+| `:Docker <command>`         | Run Docker command                                                                                  |
+| `:Dmachine <command>`       | Run Docker Machine command                                                                          |
+| `:Dcompose <command>`       | Run Docker Compose command                                                                          |
 | __Rails__                   |
 | `:Rails`                    | Rails support by [vim-rails](https://github.com/tpope/vim-rails)                                    |
 | `:Rvm`                      | Ruby Version Manager (RVM)                                                                          |
