@@ -80,6 +80,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `:Docker <command>`         | Run Docker command                                                                                  |
 | `:Dmachine <command>`       | Run Docker Machine command                                                                          |
 | `:Dcompose <command>`       | Run Docker Compose command                                                                          |
+| `:Denv <machine name>`      | Set Docker environment variables for given machine                                                  |
 | __Rails__                   |
 | `:Rails`                    | Rails support by [vim-rails](https://github.com/tpope/vim-rails)                                    |
 | `:Rvm`                      | Ruby Version Manager (RVM)                                                                          |
