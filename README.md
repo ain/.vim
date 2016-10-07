@@ -35,6 +35,8 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 | `"ay`                       | Copy to _a_ register                                                                                |
 | `"ap`                       | Paste from _a_ register                                                                             |
 | `F8`                        | Launch tagbar                                                                                       |
+| `za`                        | Fold block                                                                                          |
+| `z<Shift>r`                 | Unfold all blocks                                                                                   |
 | __tabular__                 |
 |  `:Tabularize /<regex>`     | Tabularise data by regular expression                                                               |
 | __vim-partial__             |
