@@ -117,6 +117,9 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 3. Export newly created key __without secret__
 4. Copy key content to GitHub (_Settings_ > _SSH and GPG keys_ > _New GPG key_)
 5. Configure signature locally, see [Telling Git about your GPG key](https://help.github.com/articles/telling-git-about-your-gpg-key/)
+6. Let all commits be signed
+
+        $ git config --global commit.gpgsign true
 
 ## Useful resources
 
