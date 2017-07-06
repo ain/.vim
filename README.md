@@ -115,7 +115,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 1. Install [GPG Suite](https://gpgtools.org)
 2. Create key in GPG Keychain
 3. Export newly created key __without secret__
-4. Copy key content to GitHub (_Settings > SSH and GPG keys > New GPG key)
+4. Copy key content to GitHub (_Settings_ > _SSH and GPG keys_ > _New GPG key_)
 5. Configure signature locally, see [Telling Git about your GPG key](https://help.github.com/articles/telling-git-about-your-gpg-key/)
 
 ## Useful resources
