@@ -97,6 +97,6 @@
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "bundle/vcl"]
-	path = bundle/vcl
-	url = https://github.com/smerrill/vcl-vim-plugin.git
+[submodule "bundle/vcl-vim-plugin"]
+	path = bundle/vcl-vim-plugin
+	url = git@github.com:smerrill/vcl-vim-plugin.git
