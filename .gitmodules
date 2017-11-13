@@ -100,3 +100,6 @@
 [submodule "bundle/vcl-vim-plugin"]
 	path = bundle/vcl-vim-plugin
 	url = git@github.com:smerrill/vcl-vim-plugin.git
+[submodule "bundle/vim-twig"]
+	path = bundle/vim-twig
+	url = git@github.com:lumiliet/vim-twig.git
