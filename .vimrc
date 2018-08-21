@@ -39,6 +39,7 @@ set statusline+=%<%P                         " file position
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+set updatetime=100
 
 execute pathogen#infect()
 syntax on
