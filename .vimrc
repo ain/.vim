@@ -113,11 +113,6 @@ function! s:Gbranchd(args)
 endfunction
 command! -nargs=1 Gbranchd call s:Gbranchd(<f-args>)
 
-" Rails-related aliases
-" Requires vim-capistrano
-command Cstage Cap staging deploy
-command Clive Cap production deploy
-
 " Utilities
 command Tstamp :execute ":normal i" . system("date +\%s")[:-2]
 command Pwd :execute ":normal i" . system("pwgen -c1y 12")

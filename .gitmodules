@@ -64,6 +64,6 @@
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
 	url = git@github.com:lumiliet/vim-twig.git
-[submodule "bundle/ycm"]
-	path = bundle/ycm
-	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/youcompleteme"]
+	path = bundle/youcompleteme
+	url = git@github.com:Valloric/YouCompleteMe.git
