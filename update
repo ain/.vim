@@ -10,7 +10,7 @@ git submodule foreach 'git checkout master && git pull origin master'
 
 # Recompile YCM
 # TODO: detect YCM change since last compilation
-./bundle/ycm/install.py --clang-completer --tern-completer
+./bundle/youcompleteme/install.py --clang-completer --tern-completer
 
 # Autocommit
 git commit -am "Update bundle" && git push origin master
