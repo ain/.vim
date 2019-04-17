@@ -66,6 +66,7 @@ au BufRead,BufNewFile *.module setfiletype php
 au BufRead,BufNewFile *.install setfiletype php
 au BufRead,BufNewFile *.md setfiletype markdown
 au BufRead,BufNewFile .rspec setfiletype eruby
+au BufRead,BufNewFile *.workflow setfiletype hcl
 
 " Git-related aliases
 command Greset Git reset --hard HEAD
