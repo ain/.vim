@@ -85,7 +85,7 @@ command Gpushf Git push -f
 command Gpushfu Git push -f upstream $(git symbolic-ref --short HEAD)
 command Gdlog Git log --graph --stat --all --decorate
 command Gglog Git log --stat
-command Gblog Git log --stat --decorate $(git symbolic-ref --short HEAD)
+command Gblog Git log --stat --decorate
 command Gflog Git log -p %
 command Gclean Git clean -f -d
 command Gc Gclean
