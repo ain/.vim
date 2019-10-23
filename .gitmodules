@@ -70,6 +70,3 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git@github.com:mattn/emmet-vim.git
-[submodule "bundle/ycm"]
-	path = bundle/ycm
-	url = git@github.com:ycm-core/YouCompleteMe.git
