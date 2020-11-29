@@ -24,7 +24,7 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Updates
 
-1. Run `./update`
+Run `:PlugUpdate` in Vim.
 
 ## Cheatsheet
 
