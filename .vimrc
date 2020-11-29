@@ -41,9 +41,31 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set updatetime=100
 
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
+" vim-plug
+call plug#begin('~/.vim/plugged')
+  Plug 'scrooloose/nerdtree'
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-surround'
+  Plug 'terryma/vim-multiple-cursors'
+  Plug 'mustache/vim-mustache-handlebars'
+  Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'kchmck/vim-coffee-script'
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'tpope/vim-haml'
+  Plug 'wavded/vim-stylus'
+  Plug 'bling/vim-airline'
+  Plug 'groenewege/vim-less'
+  Plug 'godlygeek/tabular'
+  Plug 'scrooloose/syntastic'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'plasticboy/vim-markdown'
+  Plug 'tpope/vim-endwise'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'smerrill/vcl-vim-plugin'
+  Plug 'lumiliet/vim-twig'
+  Plug 'b4b4r07/vim-hcl'
+  Plug 'mattn/emmet-vim'
+call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=40
