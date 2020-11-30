@@ -65,6 +65,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'lumiliet/vim-twig'
   Plug 'b4b4r07/vim-hcl'
   Plug 'mattn/emmet-vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
