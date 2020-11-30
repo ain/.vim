@@ -52,39 +52,42 @@ Run `PlugUpdate` in Vim.
 | `,cn`                       | Comment line or block                                                                               |
 | `,ci`                       | Toggle comment on line or block                                                                     |
 | __Git__                     |
-| `:Ggrep <needle> -- <path>` | Search for needle (optionally) at `<path>`                                                          |
-| `:Gbranch`                  | Display Git branches                                                                                |
-| `:Gbranches`                | Display Git branches with their tracked remotes, incl. current Git branch                           |
-| `:Grmbranches`              | Remove all local branches exc. master                                                               |
-| `:Grmrbranches`             | Remove all remote branches exc. master                                                              |
-| `:Gst`                      | Display Git status                                                                                  |
-| `:Greset`                   | Hard reset back to HEAD                                                                             |
-| `:Gurl`                     | Display remote origin URL                                                                           |
-| `:Gpusho`                   | Push current branch to origin autosetting upstream                                                  |
-| `:Gpushu`                   | Push current branch to origin autosetting upstream                                                  |
-| `:Gpushf`                   | Force-push current branch to origin                                                                 |
-| `:Gpushfu`                  | Force-push current branch to upstream                                                               |
-| `:Gpullo`                   | Pull current branch from origin with rebase                                                         |
-| `:Gpullu`                   | Pull current branch from upstream with rebase                                                       |
-| `:Gglog`                    | Global log with stat                                                                                |
-| `:Gdlog`                    | Global decorated log with stat highlighting branches                                                |
-| `:Gflog`                    | Detailed log of file in buffer                                                                      |
-| `:Gblog`                    | Current branch log                                                                                  |
-| `:Gclean`                   | Remove newly created files                                                                          |
-| `:Gc`                       | Alias of `:Gclean`                                                                                  |
-| `:Gstash`                   | Stash                                                                                               |
-| `:Gamend`                   | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
-| `:Grebuild`                 | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
-| `:Gtags`                    | List all tags with description (`git tag -l -n1`)                                                   |
-| `:Gcotag`                   | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
-| `:Gcof <branch>`            | Checkout file in buffer from another branch                                                         |
-| `:Gmsg`                     | Change last commit message                                                                          |
-| `:Gpr <remote> <ID>`        | Fetch and checkout Pull Request from remote by ID                                                   |
-| `:Gbranchd <branch>`        | Delete branch locally and at origin                                                                 |
+| `Ggrep <needle> -- <path>`  | Search for needle (optionally) at `<path>`                                                          |
+| `Gbranch`                   | Display Git branches                                                                                |
+| `Gbranches`                 | Display Git branches with their tracked remotes, incl. current Git branch                           |
+| `Grmbranches`               | Remove all local branches exc. master                                                               |
+| `Grmrbranches`              | Remove all remote branches exc. master                                                              |
+| `Gst`                       | Display Git status                                                                                  |
+| `Greset`                    | Hard reset back to HEAD                                                                             |
+| `Gurl`                      | Display remote origin URL                                                                           |
+| `Gpusho`                    | Push current branch to origin autosetting upstream                                                  |
+| `Gpushu`                    | Push current branch to origin autosetting upstream                                                  |
+| `Gpushf`                    | Force-push current branch to origin                                                                 |
+| `Gpushfu`                   | Force-push current branch to upstream                                                               |
+| `Gpullo`                    | Pull current branch from origin with rebase                                                         |
+| `Gpullu`                    | Pull current branch from upstream with rebase                                                       |
+| `Gglog`                     | Global log with stat                                                                                |
+| `Gdlog`                     | Global decorated log with stat highlighting branches                                                |
+| `Gflog`                     | Detailed log of file in buffer                                                                      |
+| `Gblog`                     | Current branch log                                                                                  |
+| `Gclean`                    | Remove newly created files                                                                          |
+| `Gc`                        | Alias of `:Gclean`                                                                                  |
+| `Gstash`                    | Stash                                                                                               |
+| `Gamend`                    | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
+| `Grebuild`                  | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
+| `Gtags`                     | List all tags with description (`git tag -l -n1`)                                                   |
+| `Gcotag`                    | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
+| `Gcof <branch>`             | Checkout file in buffer from another branch                                                         |
+| `Gmsg`                      | Change last commit message                                                                          |
+| `Gpr <remote> <ID>`         | Fetch and checkout Pull Request from remote by ID                                                   |
+| `Gbranchd <branch>`         | Delete branch locally and at origin                                                                 |
 | __Utilities__               |
 | `:Md5`                      | MD5 checksum of file in active buffer                                                               |
 | `:Tstamp`                   | Insert UNIX timestamp at cursor                                                                     |  
 | `:Pwd`                      | Insert 12-char alphanumeric password at cursor                                                      |  
+| __vim-plug__                |
+| `PlugInstall`               | Install all plugins described in `.vimrc`                                                           |
+| `PlugUpdate`                | Update all plugins described in `.vimrc`. See [complete list of commands](https://github.com/junegunn/vim-plug/blob/master/README.md#commands) |
 
 ## Tips
 
