@@ -16,15 +16,19 @@ See [bundles](https://github.com/ain/.vim/tree/master/bundle).
 
 ## Installation
 
-1. Back up `~/.vim`
-2. Remove `rm -rf ~/.vim`
-3. Make sure you're in your home folder `cd ~`
-4. Get the setup `git clone --recursive https://github.com/ain/.vim.git`
-5. Symlink Vim configuration to home folder `ln -s ~/.vim/.vimrc .vimrc`
+1. Clone
+
+        $ git clone --recursive https://github.com/ain/.vim.git`
+
+2. Symlink Vim configuration to home folder
+
+        $ ln -s <clone path>/.vimrc ~/.vimrc
+
+3. Install plugins by running `PlugInstall` in Vim
 
 ## Updates
 
-Run `:PlugUpdate` in Vim.
+Run `PlugUpdate` in Vim.
 
 ## Cheatsheet
 
