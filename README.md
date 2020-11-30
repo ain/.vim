@@ -4,7 +4,7 @@ Subject to constant change, the goal of this repository is to store a polyglot c
 
 ## Plugins
 
-See [bundles](https://github.com/ain/.vim/tree/master/bundle).
+See [/plugged](https://github.com/ain/.vim/tree/master/plugged).
 
 ## Dependencies
 
