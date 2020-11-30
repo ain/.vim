@@ -94,7 +94,6 @@ au BufRead,BufNewFile *.acl setfiletype vcl
 " Git-related aliases
 command Greset Git reset --hard HEAD
 command Gst Gstatus
-command Gbranch Git branch
 command Gbranches Git branch -vva
 command Grmbranches Git branch | grep -v master | sed 's/^[ *]*//' | sed 's/^/git branch -d /' | bash
 command Grmrbranches Git branch -r | grep origin/ | grep -v master | grep -v HEAD| cut -d/ -f2 | while read line; do git push origin :$line; done;
@@ -110,8 +109,6 @@ command Gglog Git log --stat
 command Gblog Git log --stat --decorate
 command Gflog Git log -p %
 command Gclean Git clean -f -d
-command Gc Gclean
-command Gstash Git stash
 command Gamend Git commit --amend --no-edit
 command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1

@@ -52,8 +52,6 @@ Run `PlugUpdate` in Vim.
 | `,cn`                       | Comment line or block                                                                               |
 | `,ci`                       | Toggle comment on line or block                                                                     |
 | __Git__                     |
-| `Ggrep <needle> -- <path>`  | Search for needle (optionally) at `<path>`                                                          |
-| `Gbranch`                   | Display Git branches                                                                                |
 | `Gbranches`                 | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `Grmbranches`               | Remove all local branches exc. master                                                               |
 | `Grmrbranches`              | Remove all remote branches exc. master                                                              |
@@ -71,8 +69,6 @@ Run `PlugUpdate` in Vim.
 | `Gflog`                     | Detailed log of file in buffer                                                                      |
 | `Gblog`                     | Current branch log                                                                                  |
 | `Gclean`                    | Remove newly created files                                                                          |
-| `Gc`                        | Alias of `:Gclean`                                                                                  |
-| `Gstash`                    | Stash                                                                                               |
 | `Gamend`                    | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
 | `Grebuild`                  | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
 | `Gtags`                     | List all tags with description (`git tag -l -n1`)                                                   |
