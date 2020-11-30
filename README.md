@@ -44,8 +44,6 @@ Run `PlugUpdate` in Vim.
 | `z<Shift>r`                 | Unfold all blocks                                                                                   |
 | __tabular__                 |
 |  `:Tabularize /<regex>`     | Tabularise data by regular expression                                                               |
-| __vim-partial__             |
-| `,x`                        | Extract to partial                                                                                  |
 | __Surroundings__            |
 | `ds"`                       | Remove double quotes on word under cursor                                                           |
 | `cs"'`                      | Replace double quotes with single quotes on word under cursor                                       |
