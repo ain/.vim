@@ -84,7 +84,7 @@ Run `PlugUpdate` in Vim.
 | `:Tstamp`                    | Insert UNIX timestamp at cursor                                                                     |  
 | `:Pwd`                       | Insert 12-char alphanumeric password at cursor                                                      |  
 | __coc.nvim__                 |
-| `:CocInstall <extension>`    | Install coc extension
+| `:CocInstall <extension>`    | Install coc extension for code completion
 | __vim-plug__                 |
 | `:PlugInstall`               | Install all plugins described in `.vimrc`                                                           |
 | `:PlugUpdate`                | Update all plugins described in `.vimrc`. See [complete list of commands](https://github.com/junegunn/vim-plug/blob/master/README.md#commands) |
