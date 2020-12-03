@@ -115,10 +115,6 @@ command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
 command Gmsg Gcommit --amend
-function! s:Gcof(args)
-  execute "Git checkout " . a:args . " -- %"
-endfunction
-command! -nargs=1 Gcof call s:Gcof(<f-args>)
 function! s:Gpr(remote, pr)
   " TODO argument validation
   echomsg "Checking out Pull Request #" . a:pr . " from " . a:remote . "..."

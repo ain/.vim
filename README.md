@@ -54,6 +54,7 @@ Run `PlugUpdate` in Vim.
 | `,cn`                       | Comment line or block                                                                               |
 | `,ci`                       | Toggle comment on line or block                                                                     |
 | __Git__                     |
+| `:Gread <branch>:<file>`     | Read file fom another branch into current buffer, e.g. `:Gread master:%` for the same file in `master` | 
 | `:Gbranches`                 | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Grmbranches`               | Remove all local branches exc. master                                                               |
 | `:Grmrbranches`              | Remove all remote branches exc. master                                                              |
@@ -75,7 +76,6 @@ Run `PlugUpdate` in Vim.
 | `:Grebuild`                  | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
 | `:Gtags`                     | List all tags with description (`git tag -l -n1`)                                                   |
 | `:Gcotag`                    | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
-| `:Gcof <branch>`             | Checkout file in buffer from another branch                                                         |
 | `:Gmsg`                      | Change last commit message                                                                          |
 | `:Gpr <remote> <ID>`         | Fetch and checkout Pull Request from remote by ID                                                   |
 | `:Gbranchd <branch>`         | Delete branch locally and at origin                                                                 |
