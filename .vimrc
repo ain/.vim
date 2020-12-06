@@ -67,6 +67,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'machakann/vim-highlightedyank'
+  Plug 'cespare/vim-toml'
 call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
