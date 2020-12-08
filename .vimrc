@@ -12,7 +12,7 @@ set shiftwidth=2
 set expandtab
 set formatoptions=cq
 set background=dark            " makes it easier to read with black backgroun:d
-colorscheme railscasts         " set theme in ./vim/colors folder
+"colorscheme railscasts         " set theme in ./vim/colors folder
 set hlsearch                   " highlight searches
 set incsearch                  " do incremental searching
 set ruler                      " show the cursor position all the time
@@ -68,7 +68,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'machakann/vim-highlightedyank'
   Plug 'cespare/vim-toml'
+  Plug 'arcticicestudio/nord-vim'
 call plug#end()
+
+" Nord theme
+
+colorscheme nord
 
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=40
