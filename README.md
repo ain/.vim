@@ -13,6 +13,7 @@ See [/plugged](https://github.com/ain/.vim/tree/master/plugged).
 2. [powerline-fonts](https://github.com/powerline/fonts) for [vim-airline](https://github.com/bling/vim-airline) advanced status bar and tabline.
 3. [JSCS](http://jscs.info). Install with `npm install -g jscs`.
 4. [pwgen](http://linux.die.net/man/1/pwgen). Install with Homebrew or MacPorts.
+5. Import `Nord-ain.terminal` as new `Terminal.app` profile and activate it
 
 ## Installation
 
