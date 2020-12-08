@@ -69,6 +69,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'machakann/vim-highlightedyank'
   Plug 'cespare/vim-toml'
   Plug 'arcticicestudio/nord-vim'
+  Plug 'preservim/tagbar'
 call plug#end()
 
 " Nord theme
@@ -156,7 +157,7 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist|shared|cache)|(\.(s
 let g:mustache_abbreviations = 1
 
 " Tagbar
-"nmap <F8> :TagbarToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 
 " Advanced status bar and tabline
 let g:airline_powerline_fonts = 1
