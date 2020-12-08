@@ -72,7 +72,6 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " Nord theme
-
 colorscheme nord
 
 map <C-n> :NERDTreeToggle<CR>
