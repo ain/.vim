@@ -12,7 +12,6 @@ set shiftwidth=2
 set expandtab
 set formatoptions=cq
 set background=dark            " makes it easier to read with black backgroun:d
-"colorscheme railscasts         " set theme in ./vim/colors folder
 set hlsearch                   " highlight searches
 set incsearch                  " do incremental searching
 set ruler                      " show the cursor position all the time
@@ -72,7 +71,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'preservim/tagbar'
 call plug#end()
 
-" Nord theme
+" Nord theme (dependency on plugin)
 colorscheme nord
 
 map <C-n> :NERDTreeToggle<CR>
