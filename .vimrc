@@ -115,7 +115,6 @@ command Gglog Git log --stat
 command Gblog Git log --stat --decorate
 command Gflog Git log -p %
 command Gclean Git clean -f -d
-command Gamend Git commit --amend --no-edit
 command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
@@ -129,7 +128,7 @@ function! s:Gpr(remote, pr)
 endfunction
 command! -nargs=* Gpr call s:Gpr(<f-args>)
 function! s:Gbranchd(args)
-  " TODO validate branch name and existence
+  " TODO validate branch name and existence, e.g. by autocomplete
   echomsg "Deleting " . a:args
   call system("git branch -D " . a:args . " && git push origin :" . a:args)
   echomsg "Deletion complete"

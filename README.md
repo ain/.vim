@@ -54,7 +54,8 @@ Run `PlugUpdate` in Vim.
 | __NERDCommenter__           |
 | `,cn`                       | Comment line or block                                                                               |
 | `,ci`                       | Toggle comment on line or block                                                                     |
-| __Git__                     |
+| __vim-fugitive + Git__       |
+| `ce`                         | In git status (`:Gst`), amend staged files to last commit |
 | `:Gread <branch>:<file>`     | Read file fom another branch into current buffer, e.g. `:Gread master:%` for the same file in `master` | 
 | `:Gbranches`                 | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Grmbranches`               | Remove all local branches exc. master                                                               |
@@ -73,7 +74,6 @@ Run `PlugUpdate` in Vim.
 | `:Gflog`                     | Detailed log of file in buffer                                                                      |
 | `:Gblog`                     | Current branch log                                                                                  |
 | `:Gclean`                    | Remove newly created files                                                                          |
-| `:Gamend`                    | Amend to last commit without edit (`git commit --amend --no-edit`)                                  |
 | `:Grebuild`                  | Empty commit with message `Rebuild`, e.g. for CI systems                                            |
 | `:Gtags`                     | List all tags with description (`git tag -l -n1`)                                                   |
 | `:Gcotag`                    | Display tag that is currently checked out (`git name-rev --tags --name-only $(git rev-parse HEAD)`) |
