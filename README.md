@@ -55,7 +55,7 @@ Run `PlugUpdate` in Vim.
 | `,cn`                       | Comment line or block                                                                               |
 | `,ci`                       | Toggle comment on line or block                                                                     |
 | __vim-fugitive + Git__       |
-| `ce`                         | In git status (`:Gst`), amend staged files to last commit |
+| `ce`                         | In git status (`:Gst`), amend staged files to last commit (expires legacy `:Gamend`) |
 | `:Gread <branch>:<file>`     | Read file fom another branch into current buffer, e.g. `:Gread master:%` for the same file in `master` | 
 | `:Gbranches`                 | Display Git branches with their tracked remotes, incl. current Git branch                           |
 | `:Grmbranches`               | Remove all local branches exc. master                                                               |
