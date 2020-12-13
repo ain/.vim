@@ -39,6 +39,9 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set updatetime=100
+" vim-rust
+syntax on
+filetype plugin indent on
 
 " vim-plug
 call plug#begin('~/.vim/plugged')
@@ -69,6 +72,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'cespare/vim-toml'
   Plug 'arcticicestudio/nord-vim'
   Plug 'preservim/tagbar'
+  Plug 'rust-lang/rust.vim'
 call plug#end()
 
 " Nord theme (dependency on plugin)
