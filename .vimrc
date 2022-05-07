@@ -46,6 +46,7 @@ filetype plugin indent on
 " vim-plug
 call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
+  Plug 'tpope/vim-abolish'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-surround'
   Plug 'terryma/vim-multiple-cursors'
