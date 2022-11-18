@@ -104,7 +104,7 @@ au BufRead,BufNewFile *.acl setfiletype vcl
 
 " Git-related aliases
 command Greset Git reset --hard HEAD
-command Gst Gstatus
+command Gst Git " DEPRECATED: will be removed!
 command Gbranches Git branch -vva
 command Grmbranches Git branch | grep -v master | sed 's/^[ *]*//' | sed 's/^/git branch -d /' | bash
 command Grmrbranches Git branch -r | grep origin/ | grep -v master | grep -v HEAD| cut -d/ -f2 | while read line; do git push origin :$line; done;
