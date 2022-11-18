@@ -123,7 +123,6 @@ command Gclean Git clean -f -d
 command Grebuild Git commit -m 'Rebuild' --allow-empty
 command Gtags Git tag -l -n1
 command Gcotag echomsg system("git name-rev --tags --name-only $(git rev-parse HEAD)")[:-2]
-command Gmsg Gcommit --amend
 function! s:Gpr(remote, pr)
   " TODO argument validation
   echomsg "Checking out Pull Request #" . a:pr . " from " . a:remote . "..."
