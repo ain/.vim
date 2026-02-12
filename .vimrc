@@ -59,7 +59,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'bling/vim-airline'
   Plug 'groenewege/vim-less'
   Plug 'godlygeek/tabular'
-  Plug 'scrooloose/syntastic'
   Plug 'airblade/vim-gitgutter'
   Plug 'plasticboy/vim-markdown'
   Plug 'tpope/vim-endwise'
