@@ -8,8 +8,8 @@ See [/plugged](https://github.com/ain/.vim/blob/master/.vimrc#L48-L76).
 
 ## Dependencies
 
-1. Vim 8.2 (or newer) with Python 3.3 support. Install with `sudo port install vim +python33` (MacPorts)
-1. [ctags](http://ctags.sourceforge.net) for [tagbar](https://github.com/majutsushi/tagbar). Install with `sudo port install ctags` (MacPorts).
+1. Vim 8.2 (or greater) with Python 3.3 (or greater) support.
+1. [ctags](http://ctags.sourceforge.net) for [tagbar](https://github.com/majutsushi/tagbar). Install with `sudo port install ctags` (MacPorts) or with HomeBrew.
 2. [powerline-fonts](https://github.com/powerline/fonts) for [vim-airline](https://github.com/bling/vim-airline) advanced status bar and tabline.
 3. [JSCS](http://jscs.info). Install with `npm install -g jscs`.
 4. [pwgen](http://linux.die.net/man/1/pwgen). Install with Homebrew or MacPorts.
