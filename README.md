@@ -19,11 +19,11 @@ See [/plugged](https://github.com/ain/.vim/blob/master/.vimrc#L48-L76).
 
 1. Clone
 
-        $ git clone https://github.com/ain/.vim.git
+        git clone https://github.com/ain/.vim.git
 
 2. Symlink Vim configuration to home folder
 
-        $ ln -s <clone path>/.vimrc ~/.vimrc
+        ln -s <clone path>/.vimrc ~/.vimrc
 
 3. Install `vim-plug`, see [installation guide](https://github.com/junegunn/vim-plug#installation)
 3. Install plugins by running `:PlugInstall` in Vim
@@ -105,7 +105,7 @@ Run `PlugUpdate` in Vim.
 5. Configure signature locally, see [Telling Git about your GPG key](https://help.github.com/articles/telling-git-about-your-gpg-key/)
 6. Let all commits be signed
 
-        $ git config --global commit.gpgsign true
+        git config --global commit.gpgsign true
 
 ## Useful resources
 
