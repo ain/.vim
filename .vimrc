@@ -45,7 +45,7 @@ filetype plugin indent on
 
 " vim-plug
 call plug#begin('~/.vim/plugged')
-  Plug 'scrooloose/nerdtree'
+  Plug 'preservim/nerdtree'
   Plug 'tpope/vim-abolish'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-surround'
@@ -53,10 +53,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'mustache/vim-mustache-handlebars'
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'kchmck/vim-coffee-script'
-  Plug 'scrooloose/nerdcommenter'
+  Plug 'preservim/nerdcommenter'
   Plug 'tpope/vim-haml'
   Plug 'wavded/vim-stylus'
-  Plug 'bling/vim-airline'
+  Plug 'vim-airline/vim-airline'
   Plug 'groenewege/vim-less'
   Plug 'godlygeek/tabular'
   Plug 'airblade/vim-gitgutter'
