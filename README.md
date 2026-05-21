@@ -14,6 +14,7 @@ See [/plugged](https://github.com/ain/.vim/blob/main/.vimrc#L48-L76).
 3. [JSCS](http://jscs.info). Install with `npm install -g jscs`.
 4. [pwgen](http://linux.die.net/man/1/pwgen). Install with Homebrew or MacPorts.
 5. `Nord-ain.terminal` profile (at the root of this repo)
+6. Claude Code CLI
 
 ## Installation
 
