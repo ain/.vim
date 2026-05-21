@@ -73,6 +73,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'arcticicestudio/nord-vim'
   Plug 'preservim/tagbar'
   Plug 'rust-lang/rust.vim'
+  Plug 'rishi-opensource/vim-claude-code'
 call plug#end()
 
 " Nord theme (dependency on plugin)
