@@ -170,3 +170,9 @@ let g:airline#extensions#tabline#enabled = 1
 " Syntastic JavaScript check with JSCS
 autocmd FileType javascript let b:syntastic_checkers = findfile('.jscsrc') != '' ? ['jscs'] : ['jshint']
 "let g:syntastic_debug=3
+
+inoremap <silent><expr> <Down>  coc#pum#visible() ? coc#pum#next(0) : "\<Down>"
+inoremap <silent><expr> <Up>    coc#pum#visible() ? coc#pum#prev(0) : "\<Up>"
+inoremap <silent><expr> <CR>    coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+let g:endwise_no_mappings = 1
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
