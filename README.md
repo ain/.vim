@@ -46,6 +46,7 @@ Run `PlugUpdate` in Vim.
 | `:w !pbcopy`                | Copy entire buffer to pasteboard                                                                    |
 | `"ay`                       | Copy to _a_ register                                                                                |
 | `"ap`                       | Paste from _a_ register                                                                             |
+| `"*y`                       | Copy to clipboard                                                                                   |
 | `F8`                        | Launch tagbar                                                                                       |
 | `za`                        | Fold block                                                                                          |
 | `z<Shift>r`                 | Unfold all blocks                                                                                   |
